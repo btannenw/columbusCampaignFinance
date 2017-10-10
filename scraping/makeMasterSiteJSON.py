@@ -5,7 +5,7 @@
 import json
 
 data = {
-    '303' : 'ayres_prePrimary',
+    '303' : ['ayres_prePrimary',
     '347' : 'ayres_postPrimary',
 
     '282' : 'cartharn_prePrimary',

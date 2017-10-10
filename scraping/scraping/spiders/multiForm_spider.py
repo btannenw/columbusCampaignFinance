@@ -1,28 +1,41 @@
-import scrapy
+import scrapy, json
 
 
-class singleFormSpider(scrapy.Spider):
-    name = "singleForm"
+class multiFormSpider(scrapy.Spider):
+    name = "multiForm"
 
+    
+    # *** Create list of URLs to scrape for financial data
     def start_requests(self):
-        urls = [
-            'https://campaignfinance.columbus.gov/ps_contr.aspx?param=303',
-        ]
+        urls = []
+        
+        # ** Open JSON file with URL and form information
+        with open('numberToReportMaster.json') as data_file:
+            data = json.load(data_file)
+            
+        for key in data.keys():
+            urls.append('https://campaignfinance.columbus.gov/ps_contr.aspx?param='+key)
+
         for url in urls:
             yield scrapy.Request(url=url, callback=self.parse)
 
+    # *** Run through URL and parse information
     def parse(self, response):
         page = response.url.split("=")[1]
         filename = 'CampaignFinance-%s.html' % page
+        # ** Open JSON file with URL and form information
+        with open('numberToReportMaster.json') as data_file:
+            data = json.load(data_file)
+
         for row in response.css('tr'):
             #donorInfo = row.css('span::text').extract()
             donorInfo = row.css('span').extract()
             if len(donorInfo) > 0:
-                #{'donorInfo': [u'allen, jerry ', u'Bricker ', u'1201 plaza drive', u'Columbus, OH  43213', u'Credit', u'03/22/2017', u'$50.00', u'31A']}
                 #print(dict(donor=donor))
 
                 yield {
-                    'donor':          donorInfo[0].split('<span>')[1].split(' </span>')[0],
+                    'key':            data[page],
+                    'donor':          donorInfo[0].split('<span>')[1].split(' </span>')[0].split('</span>')[0],
                     'registrationNo': donorInfo[1].strip('</span>'),
                     'employer' :      donorInfo[2].strip('</span>'),
                     'address' :       donorInfo[3].strip('</span>'),
