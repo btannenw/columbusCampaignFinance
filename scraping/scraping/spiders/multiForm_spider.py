@@ -10,7 +10,7 @@ class multiFormSpider(scrapy.Spider):
         urls = []
         
         # ** Open JSON file with URL and form information
-        with open('numberToReportMaster.json') as data_file:
+        with open('masterForContributionReports.json') as data_file:
             data = json.load(data_file)
             
         for key in data.keys():
@@ -24,7 +24,7 @@ class multiFormSpider(scrapy.Spider):
         page = response.url.split("=")[1]
         filename = 'CampaignFinance-%s.html' % page
         # ** Open JSON file with URL and form information
-        with open('numberToReportMaster.json') as data_file:
+        with open('masterForContributionReports.json') as data_file:
             data = json.load(data_file)
 
         for row in response.css('tr'):
@@ -34,7 +34,9 @@ class multiFormSpider(scrapy.Spider):
                 #print(dict(donor=donor))
 
                 yield {
-                    'key':            data[page],
+                    'candidate':      data[page][0],
+                    'report':         data[page][1],
+                    'filingDate':     data[page][2],
                     'donor':          donorInfo[0].split('<span>')[1].split(' </span>')[0].split('</span>')[0],
                     'registrationNo': donorInfo[1].strip('</span>'),
                     'employer' :      donorInfo[2].strip('</span>'),
