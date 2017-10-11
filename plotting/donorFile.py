@@ -11,19 +11,20 @@ class donorFile(object):
         nReports:     the number of contribution reports filed by a candidate (or their campaign)
         reports:      a list of the names of the filed contribution reports
         totalRaised:  total amount of $ raised by candidate
-
+        
+    
         printSimpleSummary:  print summary of overview information
         filingDate:          return the filing date of a specified report
         nContributions:      return the number of contributions in a specified report
         nRaised:             return the amount of $ raised by a given report
         returnTotalRaised:   return the total amount of $ raised by candidate
+    
     """
 
     # members
     
     # Functions
     def __init__(self, name, record):
-        """Return a Customer object whose name is *name*.""" 
         self.candidate = name
         self.filings = record
         self.nReports = len(self.filings)
@@ -63,3 +64,51 @@ class donorFile(object):
 
         return total
 
+
+    def returnContributionLocations(self, reportName=''):
+        """function for returning list of contribution locations and either total $ or total # contributions. Can be for entire candidate or single report. Three categories for the moment: 0) Columbus, 1) Elsewhere in Ohio, 2) Non-Ohio"""
+        
+        # make lists,  0) Columbus, 1) Elsewhere in Ohio, 2) Non-Ohio
+        countContributions = [0,0,0]
+        countDonations = [0,0,0]
+
+        # first do case when report specified
+        if reportName != '':
+            for contribution in self.filings[reportName]['contributions']:
+                donation = float(contribution['amount'].strip('$').replace(',',''))
+                inOhio = ', oh' in contribution['town'].lower()
+                inColumbus = 'columbus' in contribution['town'].lower()
+
+                # fill lists by criteria
+                if inOhio and inColumbus:
+                    countContributions[0] = countContributions[0] + 1
+                    countDonations[0] = countDonations[0] + donation
+                elif inOhio and not inColumbus:
+                    countContributions[1] = countContributions[1] + 1
+                    countDonations[1] = countDonations[1] + donation
+                else:
+                    countContributions[2] = countContributions[2] + 1
+                    countDonations[2] = countDonations[2] + donation
+
+        # second do case when report un-specified, i.e. candidate total
+        else:
+            for r in self.reports:
+                for contribution in self.filings[r]['contributions']:
+                    donation = float(contribution['amount'].strip('$').replace(',',''))
+                    inOhio = ', oh' in contribution['town'].lower()
+                    inColumbus = 'columbus' in contribution['town'].lower()
+                    
+                    # fill lists by criteria
+                    if inOhio and inColumbus:
+                        countContributions[0] = countContributions[0] + 1
+                        countDonations[0] = countDonations[0] + donation
+                    elif inOhio and not inColumbus:
+                        countContributions[1] = countContributions[1] + 1
+                        countDonations[1] = countDonations[1] + donation
+                    else:
+                        countContributions[2] = countContributions[2] + 1
+                        countDonations[2] = countDonations[2] + donation
+
+        # dictionary to return
+        locationDict = {'nContributions': countContributions, 'nRaised': countDonations}
+        return locationDict
