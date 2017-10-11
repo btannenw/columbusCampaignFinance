@@ -1,62 +1,61 @@
 ### Author: Ben Tannenwald
 ### Date: Oct 10, 2017
-### Purpose: really simple (and manual for the moment) assignment between online form # and campaign filing
+### Purpose: really simple assignment between online form # and campaign filing
 
 import json
 
 data = {
-    '303' : ['ayres_prePrimary',
-    '347' : 'ayres_postPrimary',
+    '303' : ['Jasmine Ayres', 'Pre Primary', '07/27/2017'],
+    '347' : ['Jasmine Ayres', 'Post Primary', '06/09/2017'],
 
-    '282' : 'cartharn_prePrimary',
-    '314' : 'cartharn_5dayPrimary',
-    '331' : 'cartharn_postPrimary',
-    '377' : 'cartharn_midCycle60day',
+    '282' : ['Kieran Cartharn', 'Pre Primary', '04/19/2017'],
+    '314' : ['Kieran Cartharn', '5 Day Primary', '04/27/2017'],
+    '331' : ['Kieran Cartharn', 'Post Primary', '06/06/2017'],
+    '377' : ['Kieran Cartharn', 'Mid-Cycle/60 Day', '09/08/2017'],
 
-    '245' : 'tyson_annual2016_Jan2017',
-    '263' : 'tyson_midCycle60day_March2017',
-    '304' : 'tyson_prePrimary',
-    '311' : 'tyson_5dayPrimary',
-    '340' : 'tyson_postPrimary',
-    '385' : 'tyson_midCycle60day_Sept2017',
+    '245' : ['Priscilla Tyson', 'Annual 2016', '01/31/2017'],
+    '263' : ['Priscilla Tyson', 'Mid-Cycle/60 Day', '03/02/2017'],
+    '304' : ['Priscilla Tyson', 'Pre Primary', '04/25/2017'],
+    '311' : ['Priscilla Tyson', '5 Day Primary', '04/27/2017'],
+    '340' : ['Priscilla Tyson', 'Post Primary', '06/08/2017'],
+    '385' : ['Priscilla Tyson', 'Mid-Cycle/60 Day', '09/08/2017'],
 
-    '232' : 'stinziano_quarterly_Oct2016',
-    '252' : 'stinziano_annual2016_Jan2017',
-    '322' : 'stinziano_quarterly_April2017',
-    '366' : 'stinziano_semiannual_July2017',
+    '232' : ['Michael Stinziano', 'Quarterly', '10/31/2016'],
+    '252' : ['Michael Stinziano', 'Annual 2016', '01/31/2017'],
+    '322' : ['Michael Stinziano', 'Quarterly', '04/28/2017'],
+    '366' : ['Michael Stinziano', 'Semiannual 2017', '07/31/2017'],
 
-    '231' : 'elizabethBrown_quarterly_Oct2016',
-    '255' : 'elizabethBrown_annual2016',
-    '323' : 'elizabethBrown_quarterly_April2017',
+    '231' : ['Elizabeth Brown', 'Quarterly', '10/31/2016'],
+    '255' : ['Elizabeth Brown', 'Annual 2016', '01/31/2017'],
+    '323' : ['Elizabeth Brown', 'Quarterly', '04/28/2017'],
 
-    '238' : 'hardin_quarterly_Nov2016',
-    '253' : 'hardin_annual2016_Jan2017',
-    '266' : 'hardin_midCycle60day_March2017',
-    '280' : 'hardin_midCycle60day_April2017',
-    '292' : 'hardin_prePrimary',
-    '316' : 'hardin_5dayPrimary',
-    '352' : 'hardin_postPrimary',
-    '388' : 'hardin_midCycle60day_Sept2017',
+    '238' : ['Shannon Hardin', 'Quarterly', '11/01/2016'],
+    '253' : ['Shannon Hardin', 'Annual 2016', '01/31/2017'],
+    '280' : ['Shannon Hardin', 'Mid-Cycle/60 Day', '04/19/2017'],
+    '292' : ['Shannon Hardin', 'Pre Primary', '04/20/2017'],
+    '316' : ['Shannon Hardin', '5 Day Primary', '04/27/2017'],
+    '352' : ['Shannon Hardin', 'Post Primary', '06/09/2017'],
+    '388' : ['Shannon Hardin', 'Mid-Cycle/60 Day', '09/08/2017'],
 
-    '291' : 'mitchellBrown_prePrimary',
-    '317' : 'mitchellBrown_5dayPrimary',
-    '343' : 'mitchellBrown_postPrimary',
-    '387' : 'mitchellBrown_midCycle60day_Sept2017',
+    '291' : ['Mitchell Brown', 'Pre Primary', '04/20/2017'],
+    '317' : ['Mitchell Brown', '5 Day Primary', '04/27/2017'],
+    '343' : ['Mitchell Brown', 'Post Primary', '06/09/2017'],
+    '387' : ['Mitchell Brown', 'Mid-Cycle/60 Day', '09/08/2017'],
 
-    '224' : 'page_quarterly_Oct2016',
-    '247' : 'page_annual2017_Jan2017',
-    '362' : 'page_semiannual_July2017',
+    '224' : ['Jaiza Page', 'Quarterly', '10/31/2016'],
+    '247' : ['Jaiza Page', 'Annual 2017', '01/31/2017'],
+    '362' : ['Jaiza Page', 'Semiannual 2017', '07/30/2017'],
 
-    '287' : 'smith_prePrimary',
-    '341' : 'smith_postPrimary',
+    '287' : ['Whitney Smith', 'Pre Primary', '04/19/2017'],
+    '341' : ['Whitney Smith', 'Post Primary', '06/09/2017'],
 
-    '279' : 'petrik_prePrimary',
-    '350' : 'petrik_postPrimary',
+    '279' : ['Will Petrik', 'Pre Primary', '04/17/2017'],
+    '350' : ['Will Petrik', 'Post Primary', '06/12/2017'],
 
     }
 
 # dump
-with open('numberToReportMaster.json', 'w') as fp:
+with open('masterForContributionReports.json', 'w') as fp:
     json.dump(data, fp)
 
 
