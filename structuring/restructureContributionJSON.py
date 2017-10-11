@@ -1,6 +1,6 @@
-### Author: Ben Tannenwald
+>### Author: Ben Tannenwald
 ### Date: Oct 10, 2017
-### Purpose: really simple assignment between online form # and campaign filing
+### Purpose: take flat JSON from scrape and re-structure by campaign and filing report (maybe further splitting in the future?)
 
 import json
 
@@ -56,13 +56,15 @@ for cand in c_list2.keys(): # loop over candidates
     for contribution in c_list2[cand]: # loop over contributions
         # store report name
         reportName = contribution['report']
+        filingDate = contribution['filingDate']
         contrib_temp = contribution
         del contrib_temp['report']
+        del contrib_temp['filingDate']
     
         if reportName not in c_list3[cand]:
-            c_list3[cand][reportName] = [contrib_temp] 
+            c_list3[cand][reportName] = {'filingDate': filingDate, 'contributions': [contrib_temp] }
         else: 
-            c_list3[cand][reportName].append(entry_temp)
+            c_list3[cand][reportName]['contributions'].append(entry_temp)
 
 # ** Print list of how many candidates and how many contributions each has
 print '############################################'
@@ -73,3 +75,7 @@ for cand in c_list3:
     for report in c_list3[cand]:
         print "\t", report, 'has', len(c_list3[cand][report]), 'contributions' 
 print '############################################'
+
+# dump
+with open('multiForm_restructured_10-10-2017.json', 'w') as fp:
+    json.dump(c_list3, fp)
