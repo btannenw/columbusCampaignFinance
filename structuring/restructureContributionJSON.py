@@ -1,4 +1,4 @@
->### Author: Ben Tannenwald
+### Author: Ben Tannenwald
 ### Date: Oct 10, 2017
 ### Purpose: take flat JSON from scrape and re-structure by campaign and filing report (maybe further splitting in the future?)
 
@@ -64,7 +64,7 @@ for cand in c_list2.keys(): # loop over candidates
         if reportName not in c_list3[cand]:
             c_list3[cand][reportName] = {'filingDate': filingDate, 'contributions': [contrib_temp] }
         else: 
-            c_list3[cand][reportName]['contributions'].append(entry_temp)
+            c_list3[cand][reportName]['contributions'].append(contrib_temp)
 
 # ** Print list of how many candidates and how many contributions each has
 print '############################################'
