@@ -1,113 +1,72 @@
-import matplotlib.pyplot as plt
+### Author: Ben Tannenwald
+### Date: Oct 12, 2017
+### Purpose: file to store useful functions for plotting contribution information
+
+import operator, matplotlib.pyplot as plt
 from matplotlib.gridspec import GridSpec
 
 
 def makeTotalPrePrimaryPostPrimaryPlot(candidateFile):
     """function for producing complicated pie chart"""
-    location_all = candidateFile.returnContributionLocations()
-    location_pre = candidateFile.returnContributionLocations('Pre Primary')
-    location_post = candidateFile.returnContributionLocations('Post Primary')
 
-
-    fig = plt.figure(figsize=(14,16))
-    #fig = plt.figure()
+    rows = candidateFile.nReports + 1 # plus one for summary
+    fig, axes = plt.subplots(rows, 3, figsize=(14,1+4*rows))
     fig.suptitle(candidateFile.candidate, fontsize=20, fontweight='bold')
-    the_grid = GridSpec(3, 3)
-    #the_grid.update(left=0.05, right=1.2, wspace=0.1)
+
+    # *** A. First row shows over summary
+    location_data = candidateFile.returnContributionLocations()
+    makeLocationPieChart(axes[0][0], location_data, 'nContributions')  # ** first column
+    makeLocationPieChart(axes[0][1], location_data, 'nRaised')         # ** second column
+    makeLocationTextSummary(axes[0][2], location_data)                 # ** third column
+    
+    # *** B. Blunt force approach to ordering reports by date
+    date_list = {}
+    for report in candidateFile.reports:
+        date_raw = candidateFile.filings[report]['filingDate']
+        date_list[report] = date_raw.split('/')[2] + '/' + date_raw.split('/')[0] + '/' + date_raw.split('/')[1]
+    sorted_dates = sorted(date_list.items(), key=operator.itemgetter(1))
+    
+    # *** C. Loop over time-ordered reports
+    row = 1
+    for tup in sorted_dates:
+        report = tup[0]
+        location_data = candidateFile.returnContributionLocations(report)
+        makeLocationPieChart(axes[row][0], location_data, 'nContributions')  # ** first column
+        makeLocationPieChart(axes[row][1], location_data, 'nRaised')         # ** second column
+        makeLocationTextSummary(axes[row][2], location_data, report, date=candidateFile.filings[report]['filingDate'] )                 # ** third column
+            
+        # move to next row
+        row = row + 1
+
+    fig.savefig( 'figures/'+candidateFile.candidate.replace(' ','')+'_Total-PrePrimary-PostPrimary_byLocation.png')
+    fig.savefig( 'figures/'+candidateFile.candidate.replace(' ','')+'_Total-PrePrimary-PostPrimary_byLocation.pdf')
+
+    
+def makeLocationPieChart(ax, data, plotType):
+    """ function to condense plot drawing"""
     labels = ['Columbus, OH', 'Greater Ohio', 'Outside OH']
     
-    # *** A. First row
-    # ** I. First row, first column
-    ax1 = plt.subplot(the_grid[0, 0], aspect=1)
-    #ax1.set_title('JasmineAyres')
-    #plt.subplot.title('Jasmine Ayres', fontsize=16, fontweight='bold')
-    size_contrib = location_all['nContributions']
-    total_contrib = sum(size_contrib)
-    plt.pie(size_contrib, labels=labels, autopct='%1.1f%%', shadow=False, startangle=90) # shows relative values
-    plt.text(-0.65, 1.2, '# Of Contributions', fontsize=14)
+    size = data[ plotType ]
+    total = sum(size)
+    ax.pie(size, labels=labels, autopct='%1.1f%%', shadow=False, startangle=90) # shows relative values
+    ax.text(-0.65, 1.2, '# Of Contributions', fontsize=14)
     
-    # ** II. First row, second column
-    plt.subplot(the_grid[0, 1], aspect=1)
-    size_cash = location_all['nRaised']
-    total_cash = sum(size_cash)
-    plt.pie(size_cash, labels=labels, autopct='%1.1f%%', shadow=False, startangle=90) # shows relative values
-    plt.text(-0.28, 1.2, '$ Raised', fontsize=14)
-    
-    # ** III. First row, third column
-    plt.subplot(the_grid[0, 2], aspect=0.7)
-    plt.axis('off')
-    plt.text(0.3, 0.9, 'All Contributions', fontsize=14, fontweight = 'bold')
-    plt.text(0.3, 0.7, '# of Contributions: ' + str(sum(size_contrib)), fontsize=14)
-    plt.text(0.3, 0.5, 'Total Raised: $'+ str(sum(size_cash)), fontsize=14)
-    plt.text(0.3, 0.3, 'Filing Date:    N/A', fontsize=14)
-    
-    # *** B. Second row
-    # ** I. Second row, first column
-    plt.subplot(the_grid[1, 0], aspect=1)
-    size_contrib = location_pre['nContributions']
-    total_contrib = sum(size_contrib)
-    plt.pie(size_contrib, labels=labels, autopct='%1.1f%%', shadow=False, startangle=90) # shows relative values
-    plt.text(-0.65, 1.2, '# Of Contributions', fontsize=14)
-    
-    # ** II. Second row, second column
-    plt.subplot(the_grid[1, 1], aspect=1)
-    size_cash = location_pre['nRaised']
-    total_cash = sum(size_cash)
-    plt.pie(size_cash, labels=labels, autopct='%1.1f%%', shadow=False, startangle=90) # shows relative values
-    plt.text(-0.28, 1.2, '$ Raised', fontsize=14)
-    
-    # ** III. Second row, third column
-    plt.subplot(the_grid[1, 2], aspect=0.7)
-    plt.axis('off')
-    plt.text(0.3, 0.9, 'Pre Primary', fontsize=14, fontweight = 'bold')
-    plt.text(0.3, 0.7, '# of Contributions: ' + str(sum(size_contrib)), fontsize=14)
-    plt.text(0.3, 0.5, 'Total Raised: $'+ str(sum(size_cash)), fontsize=14)
-    plt.text(0.3, 0.3, 'Filing Date: ' + candidateFile.filings['Pre Primary']['filingDate'], fontsize=14)
-    
-    
-    # *** B. Third row
-    # ** I. Third row, first column
-    plt.subplot(the_grid[2, 0], aspect=1)
-    size_contrib = location_post['nContributions']
-    total_contrib = sum(size_contrib)
-    plt.pie(size_contrib, labels=labels, autopct='%1.1f%%', shadow=False, startangle=90) # shows relative values
-    plt.text(-0.65, 1.2, '# Of Contributions', fontsize=14)
-    
-    # ** II. Third row, second column
-    plt.subplot(the_grid[2, 1], aspect=1)
-    size_cash = location_post['nRaised']
-    total_cash = sum(size_cash)
-    plt.pie(size_cash, labels=labels, autopct='%1.1f%%', shadow=False, startangle=90) # shows relative values
-    plt.text(-0.28, 1.2, '$ Raised', fontsize=14)
-    
-    # ** III. Second row, third column
-    plt.subplot(the_grid[2, 2], aspect=0.7)
-    plt.axis('off')
-    plt.text(0.3, 0.9, 'Post Primary', fontsize=14, fontweight = 'bold')
-    plt.text(0.3, 0.7, '# of Contributions: ' + str(sum(size_contrib)), fontsize=14)
-    plt.text(0.3, 0.5, 'Total Raised: $'+ str(sum(size_cash)), fontsize=14)
-    plt.text(0.3, 0.3, 'Filing Date: ' + candidateFile.filings['Post Primary']['filingDate'], fontsize=14)
+    if plotType == 'nContributions':
+        ax.text(-0.65, 1.2, '# Of Contributions', fontsize=14)
+    elif plotType == 'nDonations':
+        ax.text(-0.28, 1.2, '$ Raised', fontsize=14)
 
-    fig.savefig( candidateFile.candidate.replace(' ','')+'_Total-PrePrimary-PostPrimary_byLocation.png')
-    fig.savefig( candidateFile.candidate.replace(' ','')+'_Total-PrePrimary-PostPrimary_byLocation.pdf')
-    
-    
-def makeLocationPieChart(info, category, text):
-    """function for producing pie chart"""
-        
-    # Pie chart, where the slices will be ordered and plotted counter-clockwise:
-    labels = ['Columbus, OH', 'Greater Ohio', 'Outside OH']
-    sizes = info[category]
-    total = sum(sizes)
-    #explode = (0, 0.1, 0, 0)  # only "explode" the 2nd slice 
 
-    fig1, ax1 = plt.subplots()
-    ax1.pie(sizes, labels=labels, autopct='%1.1f%%', shadow=False, startangle=90) # shows relative values
-    #ax1.pie(sizes, labels=labels, autopct=lambda p: '{:.0f}'.format(p * total / 100), shadow=False, startangle=90) # shows absolute values
-    ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
-
-    plt.text(-1.6, 1.1, text, fontsize=16)
-    
-    #plt.show()
-    return ax1
-   
+def makeLocationTextSummary(ax, data, report='', date=''):
+    """ function to condense report summary"""
+    ax.axis('off')
+    if report =='':
+        ax.text(0.3, 0.9, 'All Contributions', fontsize=14, fontweight = 'bold')
+    else:
+        ax.text(0.3, 0.9, report, fontsize=14, fontweight = 'bold')
+    ax.text(0.3, 0.7, '# of Contributions: ' + str(sum(data['nContributions'])), fontsize=14)
+    ax.text(0.3, 0.5, 'Total Raised: $'+ str(sum(data['nRaised'])), fontsize=14)
+    if date =='':
+        ax.text(0.3, 0.3, 'Filing Date:    N/A', fontsize=14)
+    else:
+        ax.text(0.3, 0.3, 'Filing Date: ' + date, fontsize=14)
