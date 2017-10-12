@@ -38,8 +38,8 @@ def makeTotalPrePrimaryPostPrimaryPlot(candidateFile):
         # move to next row
         row = row + 1
 
-    fig.savefig( 'figures/'+candidateFile.candidate.replace(' ','')+'_Total-PrePrimary-PostPrimary_byLocation.png')
-    fig.savefig( 'figures/'+candidateFile.candidate.replace(' ','')+'_Total-PrePrimary-PostPrimary_byLocation.pdf')
+    fig.savefig( '../figures/'+candidateFile.candidate.replace(' ','')+'_Total-PrePrimary-PostPrimary_byLocation.png')
+    fig.savefig( '../figures/'+candidateFile.candidate.replace(' ','')+'_Total-PrePrimary-PostPrimary_byLocation.pdf')
 
     
 def makeLocationPieChart(ax, data, plotType):
