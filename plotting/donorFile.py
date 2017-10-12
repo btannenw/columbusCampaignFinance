@@ -77,7 +77,7 @@ class donorFile(object):
             for contribution in self.filings[reportName]['contributions']:
                 donation = float(contribution['amount'].strip('$').replace(',',''))
                 inOhio = ', oh' in contribution['town'].lower()
-                inColumbus = 'columbus' in contribution['town'].lower()
+                inColumbus = 'columbus' in contribution['town'].lower() or 'cols,' in contribution['town'].lower()
 
                 # fill lists by criteria
                 if inOhio and inColumbus:
@@ -96,7 +96,7 @@ class donorFile(object):
                 for contribution in self.filings[r]['contributions']:
                     donation = float(contribution['amount'].strip('$').replace(',',''))
                     inOhio = ', oh' in contribution['town'].lower()
-                    inColumbus = 'columbus' in contribution['town'].lower()
+                    inColumbus = 'columbus' in contribution['town'].lower()  or 'cols,' in contribution['town'].lower()
                     
                     # fill lists by criteria
                     if inOhio and inColumbus:

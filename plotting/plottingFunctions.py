@@ -6,13 +6,14 @@ import operator, matplotlib.pyplot as plt
 from matplotlib.gridspec import GridSpec
 
 
-def makeTotalPrePrimaryPostPrimaryPlot(candidateFile):
+def makeTotalandAllReportPlotsByLocation(candidateFile):
     """function for producing complicated pie chart"""
 
     rows = candidateFile.nReports + 1 # plus one for summary
-    fig, axes = plt.subplots(rows, 3, figsize=(14,1+4*rows))
+    fig, axes = plt.subplots(rows, 3, figsize=(14,1+3.5*rows))
     fig.suptitle(candidateFile.candidate, fontsize=20, fontweight='bold')
-
+    fig.subplots_adjust(wspace = 0.5, hspace = 0.3 )
+    
     # *** A. First row shows over summary
     location_data = candidateFile.returnContributionLocations()
     makeLocationPieChart(axes[0][0], location_data, 'nContributions')  # ** first column
@@ -45,23 +46,23 @@ def makeTotalPrePrimaryPostPrimaryPlot(candidateFile):
 def makeLocationPieChart(ax, data, plotType):
     """ function to condense plot drawing"""
     labels = ['Columbus, OH', 'Greater Ohio', 'Outside OH']
+    colors = ['blue', 'green', 'red']
     
     size = data[ plotType ]
     #remove categories with 0
     for item in size:
         if item == 0:
             del labels[size.index(item)]
+            del colors[size.index(item)]
             del size[size.index(item)]
 
     # keep on rolling
     total = sum(size)
-    ax.pie(size, labels=labels, autopct='%1.1f%%', shadow=False, startangle=90) # shows relative values
-    ax.text(-0.65, 1.2, '# Of Contributions', fontsize=14)
-    
+    ax.pie(size, labels=labels, autopct='%1.1f%%', shadow=False, startangle=90, colors=colors) # shows relative values
     if plotType == 'nContributions':
-        ax.text(-0.65, 1.2, '# Of Contributions', fontsize=14)
-    elif plotType == 'nDonations':
-        ax.text(-0.28, 1.2, '$ Raised', fontsize=14)
+        ax.text(-0.65, 1.4, '# Of Contributions', fontsize=14)
+    elif plotType == 'nRaised':
+        ax.text(-0.28, 1.4, '$ Raised', fontsize=14)
 
 
 def makeLocationTextSummary(ax, data, report='', date=''):
