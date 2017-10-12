@@ -2,26 +2,31 @@
 ### Date: Oct 11, 2017
 ### Purpose: class to take restructured JSON format and create members/functions to centralize and streamline data queries
 
+import operator
+
 class donorFile(object):
     """A class for candidate donor contribution information.
 
     Attributes:
-        candidate:    the candidate's name
-        filings:      the dictionary of all contribution filings
-        nReports:     the number of contribution reports filed by a candidate (or their campaign)
-        reports:      a list of the names of the filed contribution reports
-        totalRaised:  total amount of $ raised by candidate
-        
-    
-        printSimpleSummary:  print summary of overview information
-        filingDate:          return the filing date of a specified report
-        nContributions:      return the number of contributions in a specified report
-        nRaised:             return the amount of $ raised by a given report
-        returnTotalRaised:   return the total amount of $ raised by candidate
-    
+        candidate:           the candidate's name
+        filings:             the dictionary of all contribution filings
+        nReports:            the number of contribution reports filed by a candidate (or their campaign)
+        reports:             a list of the names of the filed contribution reports
+        totalRaised:         total amount of $ raised by candidate
+        totalContributions:  total number of contributions raised by candidate
+        orderedReports:      list of time-ordered reports
+
+        printSimpleSummary:        print summary of overview information
+        filingDate:                return the filing date of a specified report
+        nContributions:            return the number of contributions in a specified report
+        nRaised:                   return the amount of $ raised by a given report
+        orderReportsByFiling:      create and store list of reports ordered by filing date
+        returnTotalRaised:         return the total amount of $ raised by candidate
+        returnTotalContributions:  returns total number of contributions raised by candidate
+        returnAmountValues:        return list of value of all campaign contributions
     """
 
-    # members
+    # Members
     
     # Functions
     def __init__(self, name, record):
@@ -30,6 +35,8 @@ class donorFile(object):
         self.nReports = len(self.filings)
         self.reports = self.filings.keys()
         self.totalRaised = self.returnTotalRaised()
+        self.orderedReports = self.orderReportsByFiling()
+        self.totalContributions = self.returnTotalContributions()
         
     def printSimpleSummary(self):
         """function for printing simple summary to screen"""
@@ -64,9 +71,18 @@ class donorFile(object):
 
         return total
 
+    def returnTotalContributions(self):
+        """function for returning amount total number of contributions raised by candidate"""
+        total = 0
+
+        for r in self.reports:
+            total = total + self.nContributions(r)
+
+        return total
+
 
     def returnContributionLocations(self, reportName=''):
-        """function for returning list of contribution locations and either total $ or total # contributions. Can be for entire candidate or single report. Three categories for the moment: 0) Columbus, 1) Elsewhere in Ohio, 2) Non-Ohio"""
+        """function for returning list of contribution locations and either total $ or total # contributions. Can be for summary for candidate or single report. Three categories for the moment: 0) Columbus, 1) Elsewhere in Ohio, 2) Non-Ohio"""
         
         # make lists,  0) Columbus, 1) Elsewhere in Ohio, 2) Non-Ohio
         countContributions = [0,0,0]
@@ -112,3 +128,39 @@ class donorFile(object):
         # dictionary to return
         locationDict = {'nContributions': countContributions, 'nRaised': countDonations}
         return locationDict
+
+    
+    def returnAmountValues(self, reportName=''):
+        """function for returning list of the value of all contributions. Can be for candidate summary or single report."""
+        amount_values = []
+
+        # report specified
+        if reportName != '':
+            for contribution in self.filings[reportName]['contributions']:
+                amount_values.append( float(contribution['amount'].strip('$').replace(',','')) )
+        # run over all reports
+        else: 
+            for r in self.reports:
+                for contribution in self.filings[r]['contributions']:
+                    amount_values.append( float(contribution['amount'].strip('$').replace(',','')) )
+
+        return amount_values
+
+                                         
+    def orderReportsByFiling(self):
+        """function to create and store list of reports ordered by filing date"""
+        # *** B. Blunt force approach to ordering reports by date
+        date_list = {}
+        # **  loop over reports  ** 
+        for report in self.reports:
+            date_raw = self.filings[report]['filingDate']
+            date_list[report] = date_raw.split('/')[2] + '/' + date_raw.split('/')[0] + '/' + date_raw.split('/')[1]
+        # **  order reports  ** 
+        sorted_dates = sorted(date_list.items(), key=operator.itemgetter(1))
+        # **  make proper list ** 
+        ordered_dates = []
+        for tup in sorted_dates:
+            ordered_dates.append(tup[0])
+
+        return ordered_dates
+
