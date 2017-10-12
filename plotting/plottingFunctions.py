@@ -47,6 +47,13 @@ def makeLocationPieChart(ax, data, plotType):
     labels = ['Columbus, OH', 'Greater Ohio', 'Outside OH']
     
     size = data[ plotType ]
+    #remove categories with 0
+    for item in size:
+        if item == 0:
+            del labels[size.index(item)]
+            del size[size.index(item)]
+
+    # keep on rolling
     total = sum(size)
     ax.pie(size, labels=labels, autopct='%1.1f%%', shadow=False, startangle=90) # shows relative values
     ax.text(-0.65, 1.2, '# Of Contributions', fontsize=14)

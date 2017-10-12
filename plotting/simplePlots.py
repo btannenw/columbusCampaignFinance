@@ -29,10 +29,10 @@ M_Brown     = donorFile( 'Mitchell Brown', data['Mitchell Brown'] )
 S_Hardin    = donorFile( 'Shannon Hardin', data['Shannon Hardin'] )
 
 # ***  1. Make pre/post primary plots for each candidate  ***   
-makeTotalPrePrimaryPostPrimaryPlot(J_Ayres)
+#makeTotalPrePrimaryPostPrimaryPlot(J_Ayres)
 #makeTotalPrePrimaryPostPrimaryPlot(W_Petrik)
-makeTotalPrePrimaryPostPrimaryPlot(S_Hardin)
-#makeTotalPrePrimaryPostPrimaryPlot(M_Brown)
+#makeTotalPrePrimaryPostPrimaryPlot(S_Hardin)
+makeTotalPrePrimaryPostPrimaryPlot(M_Brown)
 
 
 
