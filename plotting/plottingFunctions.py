@@ -2,19 +2,30 @@
 ### Date: Oct 12, 2017
 ### Purpose: file to store useful functions for plotting contribution information
 
-import operator, matplotlib.pyplot as plt
+import operator, numpy as np, datetime as dt
+import matplotlib.pyplot as plt, matplotlib.dates as date2num
 from matplotlib.gridspec import GridSpec
-import numpy as np
 
 
 def makeTotalAndAllReportByTime(candidateFile):
     """function for making plot showing total contributions as function of time"""
 
-    donations_all = candidateFile.returnAmountValuesWithTime()
-    donations_pre = candidateFile.returnAmountValuesWithTime('Pre Primary')
+    amountsByTime_all, datesByTime_all = candidateFile.returnAmountValuesWithTime()
+    amountsByTime_pre, datesByTime_pre = candidateFile.returnAmountValuesWithTime('Pre Primary')
 
-    print 'all', donations_all
-    print 'pre', donations_pre
+    x = [dt.datetime.strptime(d,'%Y/%m/%d').date() for d in datesByTime_all]
+    y = [value for value in amountsByTime_all]
+    fig = plt.figure( candidateFile.candidate.replace(' ','')+'_byTime')
+    plt.title(candidateFile.candidate+': '+'All Contributions', fontsize=18, fontweight='bold')
+    plt.ylabel("Amount Raised [$]", fontsize=18)
+    plt.xlabel("Date", fontsize=15)
+    
+    graph = fig.add_subplot(111)
+    graph.plot(x,y,'r-o')
+    graph.set_xticklabels( [ date.strftime("%m/%d/%Y") for date in x] )
+    fig.autofmt_xdate()
+    plt.show()
+    
 
     
 def makeTotalAndAllReportHistograms(candidateFile):
@@ -34,10 +45,8 @@ def makeTotalAndAllReportHistograms(candidateFile):
     plt.ylabel("Number of Contributions", fontsize=18)
     plt.xlabel("Contribution Value [$]", fontsize=15)
     
-    #print n, bins
-    #print value, index
+    #print n, bins, value, index
     #print np.median(donation_data), np.mean(donation_data)
-    #plt.text( int(0.4*max(bins)), value*.9, 'Mean Contribution: $%.2f'%(15*(index+0.5)), fontsize=14)
     plt.text( int(0.3*max(bins)), value*.9, 'Total Raised: $%.2f'%candidateFile.totalRaised, fontsize=14)
     plt.text( int(0.3*max(bins)), value*.84, 'Mean Contribution: $%.2f'%(candidateFile.totalRaised/candidateFile.totalContributions), fontsize=14)
     plt.text( int(0.3*max(bins)), value*.78, 'Percent Raised from ', fontsize=14)

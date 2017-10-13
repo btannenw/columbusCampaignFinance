@@ -146,12 +146,12 @@ class donorFile(object):
                     amount_values.append( float(contribution['amount'].strip('$').replace(',','')) )
 
         return amount_values
-
+    
 
     def returnAmountValuesWithTime(self, reportName=''):
         """function for returning list of the value of all contributions. Can be for candidate summary or single report."""
         amount_values = {}
-
+        amountsByTime, datesByTime = [], []
         # report specified
         if reportName != '':
             for contribution in self.filings[reportName]['contributions']:
@@ -171,9 +171,9 @@ class donorFile(object):
                         amount_values[date] = amount_values[date] + float(contribution['amount'].strip('$').replace(',',''))
 
         # time order reports
-        amount_values = self.orderReportsByFiling(amount_values) # only returns dates. Need to add values !!!!! HEY
+        amountsByTime, datesByTime = self.orderReportsByFiling(amount_values) # only returns dates. Need to add values !!!!! HEY
         
-        return amount_values
+        return amountsByTime, datesByTime
 
                                          
     def orderReportsByFiling(self, inDict={}):
@@ -185,15 +185,26 @@ class donorFile(object):
             for report in self.reports:
                 date_raw = self.filings[report]['filingDate']
                 date_list[report] = date_raw.split('/')[2] + '/' + date_raw.split('/')[0] + '/' + date_raw.split('/')[1]
+            # **  order reports  ** 
+            sorted_dates = sorted(date_list.items(), key=operator.itemgetter(1))
         else:
             date_list=inDict
+            #print date_list
+            # **  order reports  ** 
+            sorted_dates = sorted(date_list.items(), key=operator.itemgetter(0))
             
-        # **  order reports  ** 
-        sorted_dates = sorted(date_list.items(), key=operator.itemgetter(1))
         # **  make proper list ** 
         ordered_dates = []
         for tup in sorted_dates:
             ordered_dates.append(tup[0])
 
-        return ordered_dates
+        # **  return second dict if need be  **
+        if not bool(inDict):
+            return ordered_dates
+        else:
+            ordered_values = []
+            for date in ordered_dates:
+                ordered_values.append( inDict[date] )
+
+            return ordered_values, ordered_dates
 
