@@ -16,14 +16,15 @@ class donorFile(object):
         totalContributions:  total number of contributions raised by candidate
         orderedReports:      list of time-ordered reports
 
-        printSimpleSummary:        print summary of overview information
-        filingDate:                return the filing date of a specified report
-        nContributions:            return the number of contributions in a specified report
-        nRaised:                   return the amount of $ raised by a given report
-        orderReportsByFiling:      create and store list of reports ordered by filing date
-        returnTotalRaised:         return the total amount of $ raised by candidate
-        returnTotalContributions:  returns total number of contributions raised by candidate
-        returnAmountValues:        return list of value of all campaign contributions
+        printSimpleSummary:          print summary of overview information
+        filingDate:                  return the filing date of a specified report
+        nContributions:              return the number of contributions in a specified report
+        nRaised:                     return the amount of $ raised by a given report
+        orderReportsByFiling:        create and store list of reports ordered by filing date
+        returnTotalRaised:           return the total amount of $ raised by candidate
+        returnTotalContributions:    returns total number of contributions raised by candidate
+        returnAmountValues:          return list of value of all campaign contributions
+        returnAmountValuesWithTime:  return list of value of all campaign contributions with time stamp
     """
 
     # Members
@@ -146,15 +147,47 @@ class donorFile(object):
 
         return amount_values
 
+
+    def returnAmountValuesWithTime(self, reportName=''):
+        """function for returning list of the value of all contributions. Can be for candidate summary or single report."""
+        amount_values = {}
+
+        # report specified
+        if reportName != '':
+            for contribution in self.filings[reportName]['contributions']:
+                date = contribution['date'].split('/')[2] + '/' + contribution['date'].split('/')[0] + '/' + contribution['date'].split('/')[1]
+                if date not in amount_values.keys():
+                    amount_values[date] = float(contribution['amount'].strip('$').replace(',',''))
+                else:
+                    amount_values[date] = amount_values[date] + float(contribution['amount'].strip('$').replace(',',''))
+        # run over all reports
+        else: 
+            for r in self.reports:
+                for contribution in self.filings[r]['contributions']:
+                    date = contribution['date'].split('/')[2] + '/' + contribution['date'].split('/')[0] + '/' + contribution['date'].split('/')[1]
+                    if date not in amount_values.keys():
+                        amount_values[date] = float(contribution['amount'].strip('$').replace(',',''))
+                    else:
+                        amount_values[date] = amount_values[date] + float(contribution['amount'].strip('$').replace(',',''))
+
+        # time order reports
+        amount_values = self.orderReportsByFiling(amount_values) # only returns dates. Need to add values !!!!! HEY
+        
+        return amount_values
+
                                          
-    def orderReportsByFiling(self):
+    def orderReportsByFiling(self, inDict={}):
         """function to create and store list of reports ordered by filing date"""
         # *** B. Blunt force approach to ordering reports by date
         date_list = {}
         # **  loop over reports  ** 
-        for report in self.reports:
-            date_raw = self.filings[report]['filingDate']
-            date_list[report] = date_raw.split('/')[2] + '/' + date_raw.split('/')[0] + '/' + date_raw.split('/')[1]
+        if not bool(inDict):
+            for report in self.reports:
+                date_raw = self.filings[report]['filingDate']
+                date_list[report] = date_raw.split('/')[2] + '/' + date_raw.split('/')[0] + '/' + date_raw.split('/')[1]
+        else:
+            date_list=inDict
+            
         # **  order reports  ** 
         sorted_dates = sorted(date_list.items(), key=operator.itemgetter(1))
         # **  make proper list ** 

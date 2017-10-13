@@ -6,6 +6,17 @@ import operator, matplotlib.pyplot as plt
 from matplotlib.gridspec import GridSpec
 import numpy as np
 
+
+def makeTotalAndAllReportByTime(candidateFile):
+    """function for making plot showing total contributions as function of time"""
+
+    donations_all = candidateFile.returnAmountValuesWithTime()
+    donations_pre = candidateFile.returnAmountValuesWithTime('Pre Primary')
+
+    print 'all', donations_all
+    print 'pre', donations_pre
+
+    
 def makeTotalAndAllReportHistograms(candidateFile):
     """function for producing histograms showing donation amount"""
 
