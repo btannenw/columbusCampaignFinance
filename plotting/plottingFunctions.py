@@ -2,9 +2,9 @@
 ### Date: Oct 12, 2017
 ### Purpose: file to store useful functions for plotting contribution information
 
-import matplotlib.pyplot as plt
+import operator, matplotlib.pyplot as plt
 from matplotlib.gridspec import GridSpec
-#import numpy as np
+import numpy as np
 
 def makeTotalAndAllReportHistograms(candidateFile):
     """function for producing histograms showing donation amount"""
@@ -14,45 +14,28 @@ def makeTotalAndAllReportHistograms(candidateFile):
     #fig.suptitle(candidateFile.candidate, fontsize=20, fontweight='bold')
     #fig.subplots_adjust(wspace = 0.5, hspace = 0.3 )
     
+    plt.figure( candidateFile.candidate.replace(' ','')+'_byDonation')
     donation_data = candidateFile.returnAmountValues()
-    #makeDonationHistogram(axes[0][0], location_data, 'nContributions')  # ** first column
-    #y, x, _ = plt.hist(donation_data, bins=int(max(donation_data)/20))
-    n, bins, patches = plt.hist(donation_data, bins=int(max(donation_data)/20))
+    #print donation_data
+    n, bins, patches = plt.hist(donation_data, bins=25, range=(0,500))
+    index, value = max(enumerate(n), key=operator.itemgetter(1))
     plt.title(candidateFile.candidate+': '+'All Contributions', fontsize=18, fontweight='bold')
     plt.ylabel("Number of Contributions", fontsize=18)
     plt.xlabel("Contribution Value [$]", fontsize=15)
-    plt.text(150, 20, 'Avg. Contribution: $'+str(candidateFile.totalRaised/candidateFile.totalContributions), fontsize=14)
-    print n
-    print max(n)
-    print dir(n)
-    #print 'max', max(x), max(y)
-    #print 'bin', y.index(max(y))
-    plt.text(150, 20, 'Mean Contribution: $'+str(candidateFile.totalRaised/candidateFile.totalContributions), fontsize=14)
-
-
     
-def makeDonationHistogram(ax, data):
-    """ function to condense plot drawing"""
-    labels = ['Columbus, OH', 'Greater Ohio', 'Outside OH']
-    colors = ['blue', 'green', 'red']
-    
-    size = data[ plotType ]
-    #remove categories with 0
-    for item in size:
-        if item == 0:
-            del labels[size.index(item)]
-            del colors[size.index(item)]
-            del size[size.index(item)]
+    #print n, bins
+    #print value, index
+    #print np.median(donation_data), np.mean(donation_data)
+    #plt.text( int(0.4*max(bins)), value*.9, 'Mean Contribution: $%.2f'%(15*(index+0.5)), fontsize=14)
+    plt.text( int(0.3*max(bins)), value*.9, 'Total Raised: $%.2f'%candidateFile.totalRaised, fontsize=14)
+    plt.text( int(0.3*max(bins)), value*.84, 'Mean Contribution: $%.2f'%(candidateFile.totalRaised/candidateFile.totalContributions), fontsize=14)
+    plt.text( int(0.3*max(bins)), value*.78, 'Percent Raised from ', fontsize=14)
+    plt.text( int(0.34*max(bins)), value*.73, "Contributions > \$1000: %.1f %%"% (100*sum([i for i in donation_data if i > 1000])/candidateFile.totalRaised), fontsize=14)
+    plt.text( int(0.34*max(bins)), value*.67, "Contributions < \$500: %.1f %%"% (100*sum([i for i in donation_data if i <= 500])/candidateFile.totalRaised), fontsize=14)
 
-    # keep on rolling
-    total = sum(size)
-    ax.pie(size, labels=labels, autopct='%1.1f%%', shadow=False, startangle=90, colors=colors) # shows relative values
-    if plotType == 'nContributions':
-        ax.text(-0.65, 1.4, '# Of Contributions', fontsize=14)
-    elif plotType == 'nRaised':
-        ax.text(-0.28, 1.4, '$ Raised', fontsize=14)
-
-        
+    plt.savefig( '../figures/byAmount/'+candidateFile.candidate.replace(' ','')+'_Total_byAmount.png')
+    plt.savefig( '../figures/byAmount/'+candidateFile.candidate.replace(' ','')+'_Total_byAmount.pdf')
+ 
 
 def makeTotalAndAllReportPlotsByLocation(candidateFile):
     """function for producing pie charts splitting donations by location"""
@@ -79,8 +62,8 @@ def makeTotalAndAllReportPlotsByLocation(candidateFile):
         # move to next row
         row = row + 1
 
-    fig.savefig( '../figures/byLocation/'+candidateFile.candidate.replace(' ','')+'_Total-PrePrimary-PostPrimary_byLocation.png')
-    fig.savefig( '../figures/byLocation/'+candidateFile.candidate.replace(' ','')+'_Total-PrePrimary-PostPrimary_byLocation.pdf')
+    fig.savefig( '../figures/byLocation/'+candidateFile.candidate.replace(' ','')+'_TotalAndReports_byLocation.png')
+    fig.savefig( '../figures/byLocation/'+candidateFile.candidate.replace(' ','')+'_TotalAndReports_byLocation.pdf')
 
     
 def makeLocationPieChart(ax, data, plotType):
