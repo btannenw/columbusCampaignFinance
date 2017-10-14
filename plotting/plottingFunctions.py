@@ -3,7 +3,7 @@
 ### Purpose: file to store useful functions for plotting contribution information
 
 import operator, numpy as np, datetime as dt
-import matplotlib.pyplot as plt, matplotlib.dates as date2num
+import matplotlib.pyplot as plt, matplotlib.dates as date2num, matplotlib.ticker as tkr
 from matplotlib.gridspec import GridSpec
 
 
@@ -13,13 +13,14 @@ def makeTotalAndAllReportByTime(candidateFile):
     amountsByTime_all, datesByTime_all = candidateFile.returnAmountValuesWithTime()
     #amountsByTime_pre, datesByTime_pre = candidateFile.returnAmountValuesWithTime('Pre Primary')
 
+
     x = [dt.datetime.strptime(d,'%Y/%m/%d').date() for d in datesByTime_all] 
     y = [value for value in amountsByTime_all] # individual contributions
     y2, sum = [y[0]], y[0]
     for contrib in y[1:]: # cumulative contributions
         sum = sum + contrib
         y2.append( sum ) 
-        
+    print x        
     
     fig = plt.figure( candidateFile.candidate.replace(' ','')+'_byTime')
     plt.title(candidateFile.candidate+': '+'All Contributions', fontsize=18, fontweight='bold')
@@ -31,14 +32,23 @@ def makeTotalAndAllReportByTime(candidateFile):
     cumul, = graph.plot(x,y2,'b-o', label='Cumulative')
     graph.set_xticklabels( [ date.strftime("%m/%d/%Y") for date in x] )
     fig.autofmt_xdate()
-    plt.locator_params(axis='x', nticks=4)
-    
+
+    plt.gca().xaxis.set_major_formatter(tkr.FuncFormatter(xfmt))
+    plt.gca().xaxis.set_major_locator(date2num.DayLocator(interval=10))
+    plt.gca().xaxis.set_minor_locator(date2num.DayLocator())
+
     plt.legend([cumul, indiv], ['Cumulative', 'Individual'],loc=2)
 
     #print len(x), x
     plt.savefig( '../figures/byTime/'+candidateFile.candidate.replace(' ','')+'_Total_byTime.png')
     plt.savefig( '../figures/byTime/'+candidateFile.candidate.replace(' ','')+'_Total_byTime.pdf')
 
+def xfmt(x,pos=None):
+    ''' custom date formatting '''
+    x = date2num.num2date(x)
+    label = x.strftime('%m/%d/%Y')
+    label = label.lstrip('0')
+    return label
     
 def makeTotalAndAllReportHistograms(candidateFile):
     """function for producing histograms showing donation amount"""
