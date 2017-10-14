@@ -5,7 +5,7 @@
 import json
 
 # 0. *** Open JSON file with URL and form information
-with open('../scraping/multiForm_10-10-2017.json') as data_file:
+with open('../scraping/multiForm_10-14-2017.json') as data_file:
     data = json.load(data_file)
 
     
@@ -77,5 +77,5 @@ for cand in c_list3:
 print '############################################'
 
 # dump
-with open('multiForm_restructured_10-10-2017.json', 'w') as fp:
+with open('multiForm_restructured_10-14-2017.json', 'w') as fp:
     json.dump(c_list3, fp)

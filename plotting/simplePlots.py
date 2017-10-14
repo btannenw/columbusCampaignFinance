@@ -10,7 +10,7 @@ from plottingFunctions import *
 #from matplotlib.gridspec import GridSpec
 
 # 0. ***  Open restructured JSON file  *** 
-with open('../structuring/multiForm_restructured_10-10-2017.json') as data_file:
+with open('../structuring/multiForm_restructured_10-14-2017.json') as data_file:
     data = json.load(data_file)
 
 
@@ -27,14 +27,14 @@ M_Stinziano = donorFile( 'Michael Stinziano', data['Michael Stinziano'] )
 #W_Smith     = donorFile( 'Whitney Smith', data['Whitney Smith'] )
 
 # ***  2. Make plots showing contributions split by location for each candidate  ***   
-#makeTotalAndAllReportPlotsByLocation(J_Ayres)
-#makeTotalAndAllReportPlotsByLocation(W_Petrik)
-#makeTotalAndAllReportPlotsByLocation(P_Tyson)
-#makeTotalAndAllReportPlotsByLocation(E_Brown)
-#makeTotalAndAllReportPlotsByLocation(M_Brown)
-#makeTotalAndAllReportPlotsByLocation(S_Hardin)
-#makeTotalAndAllReportPlotsByLocation(J_Page)
-#makeTotalAndAllReportPlotsByLocation(M_Stinziano)
+makeTotalAndAllReportPlotsByLocation(J_Ayres)
+makeTotalAndAllReportPlotsByLocation(W_Petrik)
+makeTotalAndAllReportPlotsByLocation(P_Tyson)
+makeTotalAndAllReportPlotsByLocation(E_Brown)
+makeTotalAndAllReportPlotsByLocation(M_Brown)
+makeTotalAndAllReportPlotsByLocation(S_Hardin)
+makeTotalAndAllReportPlotsByLocation(J_Page)
+makeTotalAndAllReportPlotsByLocation(M_Stinziano)
 
 
 # ***  3. Make histograms showing size of donations for each candidate  ***
@@ -48,8 +48,14 @@ makeTotalAndAllReportHistograms(J_Page)
 makeTotalAndAllReportHistograms(M_Stinziano)
 
 # ***  4. Make histograms showing time evolution of total donations for each candidate  ***   
-#makeTotalAndAllReportByTime(J_Ayres)
-#makeTotalAndAllReportByTime(M_Brown)
+makeTotalAndAllReportByTime(J_Ayres)
+makeTotalAndAllReportByTime(W_Petrik)
+makeTotalAndAllReportByTime(P_Tyson)
+makeTotalAndAllReportByTime(E_Brown)
+makeTotalAndAllReportByTime(M_Brown)
+makeTotalAndAllReportByTime(S_Hardin)
+makeTotalAndAllReportByTime(J_Page)
+makeTotalAndAllReportByTime(M_Stinziano)
 
 # ***  Last. Show plots  ***
 plt.show()

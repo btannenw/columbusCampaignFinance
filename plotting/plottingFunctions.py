@@ -11,21 +11,33 @@ def makeTotalAndAllReportByTime(candidateFile):
     """function for making plot showing total contributions as function of time"""
 
     amountsByTime_all, datesByTime_all = candidateFile.returnAmountValuesWithTime()
-    amountsByTime_pre, datesByTime_pre = candidateFile.returnAmountValuesWithTime('Pre Primary')
+    #amountsByTime_pre, datesByTime_pre = candidateFile.returnAmountValuesWithTime('Pre Primary')
 
-    x = [dt.datetime.strptime(d,'%Y/%m/%d').date() for d in datesByTime_all]
-    y = [value for value in amountsByTime_all]
+    x = [dt.datetime.strptime(d,'%Y/%m/%d').date() for d in datesByTime_all] 
+    y = [value for value in amountsByTime_all] # individual contributions
+    y2, sum = [y[0]], y[0]
+    for contrib in y[1:]: # cumulative contributions
+        sum = sum + contrib
+        y2.append( sum ) 
+        
+    
     fig = plt.figure( candidateFile.candidate.replace(' ','')+'_byTime')
     plt.title(candidateFile.candidate+': '+'All Contributions', fontsize=18, fontweight='bold')
     plt.ylabel("Amount Raised [$]", fontsize=18)
     plt.xlabel("Date", fontsize=15)
     
     graph = fig.add_subplot(111)
-    graph.plot(x,y,'r-o')
+    indiv, = graph.plot(x,y,'r-o', label='Individual')
+    cumul, = graph.plot(x,y2,'b-o', label='Cumulative')
     graph.set_xticklabels( [ date.strftime("%m/%d/%Y") for date in x] )
     fig.autofmt_xdate()
-    plt.show()
+    plt.locator_params(axis='x', nticks=4)
     
+    plt.legend([cumul, indiv], ['Cumulative', 'Individual'],loc=2)
+
+    #print len(x), x
+    plt.savefig( '../figures/byTime/'+candidateFile.candidate.replace(' ','')+'_Total_byTime.png')
+    plt.savefig( '../figures/byTime/'+candidateFile.candidate.replace(' ','')+'_Total_byTime.pdf')
 
     
 def makeTotalAndAllReportHistograms(candidateFile):

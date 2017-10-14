@@ -5,7 +5,7 @@
 import json
 
 data = {
-    '303' : ['Jasmine Ayres', 'Pre Primary', '07/27/2017'],
+    '303' : ['Jasmine Ayres', 'Pre Primary', '04/22/2017'],
     '347' : ['Jasmine Ayres', 'Post Primary', '06/09/2017'],
 
     '282' : ['Kieran Cartharn', 'Pre Primary', '04/19/2017'],
@@ -34,7 +34,7 @@ data = {
     '280' : ['Shannon Hardin', 'Mid-Cycle/60 Day', '04/19/2017'],
     '292' : ['Shannon Hardin', 'Pre Primary', '04/20/2017'],
     '316' : ['Shannon Hardin', '5 Day Primary', '04/27/2017'],
-    '352' : ['Shannon Hardin', 'Post Primary', '06/09/2017'],
+    '352' : ['Shannon Hardin', 'Post Primary', '06/27/2017'],
     '388' : ['Shannon Hardin', 'Mid-Cycle/60 Day', '09/08/2017'],
 
     '291' : ['Mitchell Brown', 'Pre Primary', '04/20/2017'],
@@ -42,7 +42,7 @@ data = {
     '343' : ['Mitchell Brown', 'Post Primary', '06/09/2017'],
     '387' : ['Mitchell Brown', 'Mid-Cycle/60 Day', '09/08/2017'],
 
-    '224' : ['Jaiza Page', 'Quarterly', '10/31/2016'],
+    '224' : ['Jaiza Page', 'Quarterly', '10/30/2016'],
     '247' : ['Jaiza Page', 'Annual 2017', '01/31/2017'],
     '362' : ['Jaiza Page', 'Semiannual 2017', '07/30/2017'],
 
