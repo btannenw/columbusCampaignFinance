@@ -20,8 +20,7 @@ def makeTotalAndAllReportByTime(candidateFile):
     for contrib in y[1:]: # cumulative contributions
         sum = sum + contrib
         y2.append( sum ) 
-    print x        
-    
+        
     fig = plt.figure( candidateFile.candidate.replace(' ','')+'_byTime')
     plt.title(candidateFile.candidate+': '+'All Contributions', fontsize=18, fontweight='bold')
     plt.ylabel("Amount Raised [$]", fontsize=18)
@@ -34,12 +33,12 @@ def makeTotalAndAllReportByTime(candidateFile):
     fig.autofmt_xdate()
 
     plt.gca().xaxis.set_major_formatter(tkr.FuncFormatter(xfmt))
-    plt.gca().xaxis.set_major_locator(date2num.DayLocator(interval=10))
+    daygap = abs((x[0] - x[len(x)-1]).days)
+    plt.gca().xaxis.set_major_locator(date2num.DayLocator(interval=int(daygap/10)))
     plt.gca().xaxis.set_minor_locator(date2num.DayLocator())
 
     plt.legend([cumul, indiv], ['Cumulative', 'Individual'],loc=2)
 
-    #print len(x), x
     plt.savefig( '../figures/byTime/'+candidateFile.candidate.replace(' ','')+'_Total_byTime.png')
     plt.savefig( '../figures/byTime/'+candidateFile.candidate.replace(' ','')+'_Total_byTime.pdf')
 
