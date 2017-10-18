@@ -1,557 +1,559 @@
-Donor 		 Money Donated 		 # Donations
-======================================================
-		$33453.0		92
-Bengel, Patricia		$150.0		1
-Fisher, Shellee		$30.0		1
-Lowe, John		$650.0		4
-Lincoln, Cynthia		$15.0		1
-Lindsay, Charles		$20.0		1
-Citizens for Priscilla Tyson		$92485.0		3
-Smith, Reita		$15.0		1
-Ward, Courtney		$100.0		1
-Staples, Beverlyn		$15.0		1
-West, Joseph		$40.0		2
-Carter, Sheritta		$30.0		2
-Ricksecker, James		$200.0		2
-Doucet, Troy		$100.0		1
-Ranson, Dana		$20.0		1
-Perry, Brandon		$20.0		1
-Asfaw, Seleshi		$150.0		1
-Davidson, Karen		$20.0		1
-Smithson, Michael		$250.0		1
-Kontogiannis, George		$500.0		1
-Ngozi Oike, Roselinde		$15.0		1
-Loutzenhiser, Charles		$30.0		2
-Scott, Julian		$30.0		1
-Thomas, Linda		$45.0		2
-Jones, Zane		$300.0		2
-Stewart, Helen		$45.0		1
-Foster, Shauntia		$20.0		1
-Wilson, Larry		$25.0		1
-Spires, Kristy		$100.0		1
-Capobianco, Louis		$100.0		1
-White Castle PAC		$1500.0		3
-Kamagate, Habiba		$75.0		1
-Goldstein, Jami		$100.0		1
-Greene, Jamie		$500.0		1
-Benseler, Derek		$100.0		1
-Kelley, Patrick		$500.0		1
-Clay, Derrick		$550.0		4
-Strauchtec, Don		$60.0		2
-Williams Purkey, Lillian		$135.0		3
-Ransom, Christina		$60.0		2
-Weiler, James		$1000.0		1
-Mullins, Timothy		$5.0		1
-New Albany State PAC		$10000.0		3
-North, Scott		$1000.0		2
-Spencer, Othelda		$100.0		2
-Adams, Nic		$50.0		1
-Sully, Ira		$60.0		1
-Brandt, Barbara		$500.0		1
-Mastin, Gabriel		$50.0		1
-Haehn, Chris		$50.0		1
-Garrett, Christina		$140.0		3
-IBEW 683 PCE		$3000.0		3
-Mills, Michelle		$40.0		2
-Lamb, Shawn		$200.0		2
-Dempsey, Mark		$200.0		2
-Negron, James		$2000.0		1
-Bell, Napolean		$30.0		2
-Virre, Mary		$100.0		1
-Dorans, Robert		$30.0		1
-Luce, Bob		$40.0		2
-Rayburn, John		$100.0		1
-Columbus/Central Ohio Building Trades Council-Educ		$400.0		4
-Bauknight, Tillman		$50.0		3
-Grote, Thomas		$500.0		1
-Wilson, Meoldi		$40.0		1
-Babner, David		$1000.0		1
-Stovall, Tasha		$60.0		2
-Croft, Kishma		$60.0		2
-Anderson, Peggy		$100.0		1
-Sullivan, Ernest		$975.0		6
-Martin, Ginny		$30.0		2
-Dimitri, Arline		$15.0		1
-Dawkins, Dorothy		$20.0		1
-Page, Jaiza		$120.0		2
-Bowman, Katharine		$500.0		2
-Pandora, Elizabeth		$100.0		2
-Whittingham Capital, LLC		$250.0		3
-Mackey, Jeffrey		$150.0		2
-Martin, Richard		$30.0		2
-Roberts, Doris		$30.0		2
-Daugherty, John		$150.0		1
-Brown, Paula		$60.0		2
-KGM PAC		$3000.0		1
-Kullik, Craig		$50.0		1
-Seely, Elizabeth		$250.0		1
-Scott, Daniel		$500.0		1
-Royer, John		$750.0		2
-Johnson, F		$15.0		1
-Schick, Ryan		$100.0		1
-Ransom, Tony		$80.0		3
-Hedrick, Bill		$100.0		1
-Wexner, Abigail		$5000.0		2
-Howell, Jesi		$30.0		2
-Norman, Misti		$1250.0		2
-Fields, Lamar		$20.0		1
-Wood, Mark		$11000.0		6
-Ransom Stultz, Kristi		$20.0		1
-Bowen, Richard		$500.0		1
-Calfee Fund for Good Government		$1000.0		1
-Kaufman, Brett		$10000.0		1
-Moving Forward PAC		$5000.0		1
-Davis, Curtis		$60.0		3
-Carr, Garrison		$30.0		1
-Bibb, Rachel		$15.0		1
-OhioHealth Star Corp Political Action Committee		$500.0		1
-Safford, Boyce		$40.0		2
-Thornburg Rayo, Sarah		$50.0		1
-Suez, Chris		$20.0		1
-Morgan, Paige		$30.0		2
-Lopez, Sandra		$15.0		1
-Russell, Anne		$20.0		1
-Shim, Sam		$30.0		2
-Morison, Jed		$100.0		1
-Marsh, Ty		$250.0		1
-Dioum, Mina		$500.0		1
-Greathouse, Erik		$125.0		1
-Tupes, Bridgette		$60.0		2
-AMG Peterbilt Group, LLC		$250.0		1
-Robinson, Timothy		$500.0		1
-Ryan, Richard		$30.0		1
-Cook, John		$30.0		2
-Lewis, Maria		$60.0		2
-Vyzral, Kelly		$50.0		1
-Sutton, Nikki		$100.0		1
-Burgett, William		$2000.0		2
-Donaldson, Mallory		$300.0		2
-Nesbitt, Renee		$100.0		1
-Morgan, Georgia		$45.0		3
-Tyler Lee, Dawn		$50.0		1
-Canady-Johnson, Margo		$15.0		1
-Howard, Andrea		$15.0		1
-Gore, Richard		$50.0		1
-Lilly, Joel		$50.0		1
-Howard, Dionne		$20.0		1
-Harrison, JHANNELLE		$15.0		1
-Feeney, Paul		$500.0		1
-Rhodes, Jerry		$250.0		1
-Hairston, Calvin		$60.0		3
-Francis, Stephen		$300.0		2
-The Day Companies Property Mgmt Trust		$1000.0		2
-Friend Foster, Denise		$50.0		1
-Terrell, Yohannan		$75.0		1
-Scott, Luke		$100.0		2
-Taylor, Jacob		$500.0		1
-Hampton, Ralonda		$100.0		3
-The Huntington Bancshares Incorporated PAC		$3000.0		2
-Donohue, Falon		$125.0		2
-Ransom, Iyshia		$40.0		2
-CMAGE/CWA Local 4502		$3500.0		2
-Writesel, P B		$5000.0		1
-Roberts, Deborah		$50.0		2
-Paul, Brooke		$150.0		1
-Peterson, Latoya		$30.0		1
-Mixon, Jodelle		$240.0		3
-Mumin, Azuka		$75.75		1
-House, Jennifer		$30.0		1
-Coleman for Columbus		$12000.0		4
-Coet, James		$15.0		1
-Corrigan, Erin		$300.0		3
-Booker, Emma		$25.0		1
-Vekasy, Mathew		$2500.0		1
-Kelley, Donald		$500.0		1
-Tolliner, Shay		$25.0		1
-Williams, Joe		$3400.0		3
-Lawson, Kiwan		$50.0		1
-Morton, Jason		$100.0		1
-Eribo, Andrew		$250.0		1
-Makowski, Pamela		$60.0		2
-Byers, Daphne		$45.0		1
-Gladman, Steven		$400.0		4
-Booker, Margaret		$30.0		2
-Kambay, Makia		$100.0		1
-Harper, Rena		$150.0		1
-Garner, Dwight		$100.0		1
-Harden, Tyneisha		$15.0		1
-Friedman, Adam		$50.0		1
-Jones, Shayla		$60.0		2
-Dixon, Leander		$30.0		1
-Vorys Sater Seymour and Pease LLP Advocate for Eff		$1500.0		2
-Brown, Michael		$1050.0		4
-Rowe, Rondal		$90.0		2
-Event contributions less than $25		$40.0		1
-Day, Richard		$1800.0		4
-Cook, Broderick		$30.0		1
-Miller, Richard		$500.0		1
-Cooper, Christopher		$30.0		2
-Kegler, Brown, Hill &amp; Ritter, PAC		$250.0		1
-Mitchell, Shelly		$60.0		2
-Bowen, David		$250.0		1
-JOSOLOWITZ, SETH		$1.0		1
-Steiner, Yaromir		$1000.0		1
-Sutton, Nora		$20.0		1
-Travis, Brenna		$30.0		2
-Khoury, Paul		$100.0		1
-Cozad, Christine		$100.0		1
-Bell, Napoleon		$25.0		1
-Brooks Sullivan, Cheryl		$50.0		1
-Neely, Demetries		$100.0		1
-Husband, Kiara		$20.0		1
-NiSource Inc., PAC		$250.0		1
-Keller, Harold		$500.0		1
-Shubert, Colleen		$500.0		1
-Barrett, Brian		$5075.0		3
-Nesbitt-Ransom, Renee		$30.0		2
-Thornwell, Donna		$60.0		2
-Martin, Dean		$125.0		1
-Harrison, Jhannelle		$15.0		1
-King, Nicholas		$2500.0		1
-Chatman, Sean		$30.0		1
-Duffey, Regina		$45.0		3
-Aaron, Michael		$160.0		5
-Tappan Williams, Susan		$15.0		1
-Ames, Grant		$40.0		2
-Spack, John		$70.0		2
-Garrett, Ceola		$30.0		1
-Miller, Harvey		$500.0		1
-Friends of Marilyn Brown		$1000.0		2
-Keister, Marie		$800.0		2
-Bricker &amp; Eckler LLP State PAC		$875.0		5
-Lu, Yung Chen		$30.0		2
-Ransom, Kraig		$30.0		2
-Jarrells, Dontavius		$105.0		3
-Lamb, Kevin		$20.0		1
-Macgregor Comek, Laura		$1000.0		2
-Gallicchio, Mike		$50.0		1
-Woolpert, Inc. PAC		$2500.0		2
-Rickbecker, James		$100.0		1
-Roman, Bridgette		$100.0		1
-Gooch, Deborah		$15.0		1
-Henry, Bryon		$60.0		2
-Barnes, Jonathan		$1000.0		3
-Wagenbrenner, Mark		$6825.0		3
-Ransom, Jamila		$25.0		1
-Hernandez, Pablo		$50.0		1
-Iloka, Tobias		$800.0		2
-Webster, Mary		$60.0		2
-Allen, Steven		$500.0		1
-Dean, Zachary		$20.0		1
-Pugh, Letha		$250.0		1
-Asmo, Rebecca		$100.0		1
-Adams, Tonya		$15.0		1
-Tatum, Kathy		$400.0		2
-Leatherwood, William		$50.0		1
-Ervin, Beth		$100.0		1
-Hicks, Clayton		$60.0		2
-Ranney, Michael		$100.0		1
-Adams, Ciera		$15.0		1
-Gray, Darrell		$15.0		1
-Cespedes, Juan		$150.0		1
-Couch, Al		$30.0		2
-Abrokawa, Alex		$60.0		2
-Adelusola, Edna		$100.0		1
-Travis, Mary		$30.0		2
-Howell, Edie		$30.0		2
-Benoit, Michael		$30.0		1
-Byers, Bill		$1500.0		2
-Jackso, Deloris		$60.0		2
-Grayson, Destin		$30.0		2
-Sherman, Jonathan		$40.0		1
-Diaz, Craig		$500.0		1
-DeHays, Brad		$2000.0		1
-McCoy, LaVeda		$29.0		1
-Ransom, Carl		$300.0		3
-Williamson, Dan		$40.0		2
-Dior Smoot, Dana		$100.0		1
-Talley, Christopher		$40.0		2
-Wilkerson, Angela		$30.0		2
-Robinson, Kay		$30.0		2
-Smith, Toni		$45.0		3
-Devere, Don		$200.0		2
-Smith, Herbert		$10.0		1
-Kelley, Timothy		$500.0		1
-Hambrick, William		$150.0		3
-Shumard, Bruce		$75.0		1
-Swanson, Laura		$100.0		1
-Solomon, Scott		$300.0		1
-Pretentious Barrel House LLC		$50.0		1
-Seckler, Barbara		$120.0		1
-Josolowitz, Seth		$3.0		3
-Brown, Gamal		$130.0		2
-Sullivan, Joseph		$100.0		2
-Palmore, Dannette		$250.0		1
-Bartley, Trudy		$50.0		1
-O'Connor, Daniel		$30.0		2
-Bauknight, Leslie		$30.0		2
-Dickerson, Monique		$15.0		1
-Central Ohio Realtors PAC		$2500.0		2
-Price, Larry		$30.0		1
-Shellabarger, Steven		$250.0		1
-Norman, Arthur		$15.0		1
-Hill, Tracey		$20.0		1
-Blake, Jeremy		$50.0		1
-Teaford, Hamilton		$250.0		1
-Wagenbrenner, Eric		$1700.0		3
-McLaughlin, Robert		$200.0		2
-JPMorgan Chase &amp; Co. PAC		$1000.0		1
-Julian, Juliana		$40.0		2
-Westbrook, Brittany		$100.0		1
-Hale Sutton, Loren		$50.0		1
-Scott, Christopher		$90.0		2
-Truesdell, Heather		$100.0		1
-Kirkley, Robert		$1000.0		1
-Nooks, Tonya		$30.0		1
-Martin, Anne		$50.0		1
-Stewart, HELEN		$45.0		1
-Zachrich, Ben		$90.0		3
-Pattricia, Pellerite		$20.0		1
-Holmes, Ramona		$90.0		2
-Katzenmeyer, Tom		$500.0		1
-Chilton, Robert		$50.0		1
-Hunter, Brandon		$50.0		1
-McCain, Kevin		$20.0		1
-Saelim, Theresa		$20.0		1
-Haggins, Brenda		$15.0		1
-Potter, Mary Ann		$50.0		1
-Kelley, Brendan		$60.0		2
-Franklin, Ken		$30.0		2
-Shinn, Brian		$250.0		3
-Knott, Megan		$150.0		1
-Dawkins, David		$30.0		1
-Edwards, Peter		$5000.0		1
-Hutching, Tony		$30.0		1
-Tweet, David		$15.0		1
-Jama, Omar		$40.0		1
-Zunkiewicz, Gregory		$50.0		1
-Rivera, George		$15.0		1
-Mollard, Kerri		$100.0		1
-Kelley, Tim		$500.0		1
-Graves, Darryl		$40.0		2
-Hunley-Jenkins, Keisha		$60.0		3
-Fassbender, Terri		$100.0		1
-Goodwin, Russell		$50.0		1
-Ibel, Sebastian		$50.0		1
-Tatum, Katherine		$100.0		1
-Citizens for Stinziano		$2000.0		2
-Kostelac, Karen		$60.0		3
-Barnes, Bob		$50.0		1
-Kaplan, Charles		$50.0		1
-Roberts, Edward		$100.0		1
-Garland, Wayne		$440.0		3
-Henry, Alicia		$15.0		1
-Bright, Phyllis		$75.0		3
-Carmichael, Michael		$100.0		1
-Johnson, Michael		$100.0		1
-Sully, Nancy		$30.0		2
-Goodwin, Simeon		$40.0		2
-Ingram, Lisa		$1000.0		1
-Rakes, Wade		$150.0		1
-Zachrich, Martin		$75.0		2
-Boykin, Lela		$15.0		1
-Cochran, Malcolm		$50.0		1
-Dupree, Monica		$30.0		1
-Stevens, Julia		$15.0		1
-House, Jen		$45.0		3
-Stewart, Marcus		$15.0		1
-Pizzuti PAC		$2500.0		1
-Boggs for Ohio		$250.0		1
-Columbus Sheet Metal Workers Committee on Politica		$250.0		1
-Anderson, S.		$15.0		1
-Hardy, William		$100.0		1
-Daley, Stephen		$100.0		1
-White, Benny		$30.0		1
-Alfayyomi, Ihsan		$250.0		1
-United Food &amp; Commercial Workers Active Ballot Clu		$10000.0		1
-Schuler, Linda		$100.0		1
-Ginn, Gina		$40.0		1
-Angel, Christie		$1000.0		2
-Hunton, Larry		$100.0		1
-Cook, Alyce		$30.0		2
-Cunningham, Fred		$30.0		2
-Hindenlang, Dean		$500.0		1
-Labitue, Ian		$20.0		1
-Allen, Debbie		$30.0		1
-Sparrow, Darien		$15.0		1
-Fields, Jason		$30.0		2
-Peoples, Victor		$90.0		3
-Corna, Joshua		$2000.0		1
-Brown, Don		$500.0		2
-Howard, Joseph		$25.0		1
-Young, Natalie		$10.0		1
-Nickens, Brandy		$30.0		1
-Hurtt, Steven		$100.0		1
-Brown, Christine		$30.0		2
-Dorans, Rob		$50.0		1
-NiSource Inc. PAC		$3000.0		1
-Walker Makowski, Pamela		$100.0		2
-Sexton, Mike		$100.0		1
-Yeager, David		$25.0		1
-Mareland, Marie		$30.0		2
-Manser, Jacob		$250.0		1
-Connect Realty, LLC		$3000.0		1
-Lauderdale, Tahja		$5.0		1
-Straughter, Larry		$30.0		2
-Miner, Jack		$100.0		1
-Strickland, Kyle		$75.0		3
-Harper, Stefphanie		$100.0		2
-NLM, Steven		$20.0		1
-Conte, Marc		$300.0		3
-D.Womack, Carter		$75.0		1
-Ohio Hotel PAC		$500.0		1
-Kazmi, Reyahd		$25.0		1
-Josolowitz-Luce, Philip		$30.0		2
-Friedman, Jerome		$250.0		1
-Bryant, Lauren		$60.0		2
-Pryor Sully, Nancy		$100.0		2
-Motorists Mutual Ins. Co. Civic Fund		$1000.0		1
-Kinzelman, Brian		$1100.0		2
-Yvette Harden, Tyneisha		$100.0		1
-Mercado, Octavia		$15.0		1
-Porter, Chris		$15.0		1
-Coram, Joseph		$417.0		1
-Smith, Michael		$90.0		2
-Cann, Monica		$60.0		2
-Design Group PAC		$1000.0		1
-Dickerson, Deborah		$15.0		1
-Lee, Gregory		$120.0		2
-Dinsmore, Allan		$100.0		1
-Hamilton, Jerome		$40.0		1
-Pennington, Christa		$40.0		2
-Mentel, Sean		$1000.0		1
-Green, James		$40.0		2
-Brandon, Nichole		$200.0		2
-Hawthorne Avenue Investments, LLC		$250.0		3
-Rajadhyaksha, Shyam		$100.0		1
-Garrett, Kesha		$50.0		1
-Ralston, Brent		$50.0		1
-Guisinger, Ronald		$100.0		1
-Squire Patton Boggs PAC		$2500.0		1
-Savla, Shashi		$100.0		1
-Larrimer, Patrick		$25.0		1
-GSP Ohio PAC		$500.0		1
-Taft Stettinius &amp; Hollister Better Government Fund		$1000.0		1
-Dawkins, Richard		$130.0		3
-Suiter, Brian		$100.0		1
-Ivory, Heather		$500.0		1
-Kelley, Margaret		$500.0		1
-McIntyre, Rachel		$100.0		1
-Teach, Donna		$500.0		1
-Hughes, James		$60.0		2
-Henry, Linda		$50.0		2
-Griffin Communications LLC		$250.0		1
-Mason, Mary		$100.0		1
-Campbell, Terrell		$40.0		2
-Renzi, Allan		$50.0		1
-Markham, Shannon		$250.0		1
-White, William		$15.0		1
-Sexton, Michael		$250.0		2
-Hostin, Seiko		$100.0		3
-Henderson, Maurice		$80.0		2
-Ryan, Francine		$50.0		2
-Lewis, Jacquelin		$75.0		1
-Miller, Joshua		$100.0		1
-Shutt, Jay		$100.0		1
-Calhoun, Jason		$500.0		1
-Marinacci, Dawn		$310.0		4
-HAMILTON, JEROME		$40.0		1
-Remy, Emmanuel		$50.0		2
-Matty, William		$100.0		1
-King, Staci		$100.0		2
-Underhill &amp; Hodge LLC		$2500.0		1
-Robinson, Yolanda		$105.0		4
-Burton, Georden		$30.0		2
-Gherman, Heather		$60.0		2
-Helton, Sherri		$45.0		3
-Smith, Chadd		$70.0		2
-Ransom, Jasmine		$40.0		2
-Christian, Kwame		$25.0		1
-Malloy, Randolph		$100.0		1
-Smith, Brandon		$40.0		2
-King, Leonard		$30.0		1
-McTigue, Donald		$100.0		1
-Sanchez, Javier		$80.0		2
-Williams, Kevin		$100.0		1
-Jerome Buckner, Otis		$100.0		1
-Schadek, Michael		$200.0		2
-Buhrlage, Elaine		$48.0		3
-Womack, Carter		$90.0		2
-Brigdon, Thomas		$1000.0		1
-Sweeney, Edward		$60.0		2
-Safford, Toshia		$40.0		2
-Anderson, Stanley		$15.0		1
-Igel, John		$1000.0		2
-Lucas, Felecia		$45.0		3
-Machinski, Richard		$1300.0		5
-Crumpler, Michael		$40.0		2
-Myers, Robert		$2500.0		1
-Kulik, Craig		$50.0		1
-Glasser, Greg		$50.0		2
-Hardin, Toni		$50.0		3
-Hodge, David		$2500.0		1
-Francis, Carolyn		$40.0		1
-Allen, Deidre		$20.0		1
-Henry, Robert		$40.0		1
-Decker, Jack		$100.0		1
-Harris, Chevonne		$10.0		1
-Whatley, James		$50.0		1
-Katz, Kyle		$1000.0		2
-Moore, Rebecca		$30.0		2
-Cook, Shewa		$15.0		1
-Fergus, Shannon		$50.0		2
-Ryan, Rick		$80.0		1
-Harden, Michael		$15.0		1
-Dooley, Bruce		$500.0		1
-Stultz, Britton		$20.0		1
-Friends of O'Connor		$500.0		1
-Harkey, Bruce		$100.0		1
-Turner, Winette		$20.0		1
-Depaola, Carole		$100.0		1
-Deering, Patrick		$100.0		1
-Schoen, Michael		$417.0		1
-Jobs America PAC		$4000.0		1
-Savarise, Joseph		$500.0		1
-Gilton, Lisa		$50.0		1
-Padilla, Ernesto		$30.0		1
-Edwards, Jeff		$5000.0		1
-Brown, Emmett		$30.0		1
-H R Gray PAC		$7500.0		1
-Calhoun-Stultz, Ariel		$10.0		1
-Gyshen Fennell, Sean		$50.0		1
-Lipnos, James		$500.0		1
-Sophocleous, Savvas		$250.0		1
-Sullivan, Mrs.		$75.0		1
-Boggs, Lisa		$30.0		1
-Gofstein, Marc		$100.0		1
-Johnson, Denise		$100.0		1
-Moncrief, Dan		$1500.0		3
-Hill, Michael		$40.0		2
-Firefighters Local 67 PAC Fund		$12000.0		4
-Bannowman, Renae		$40.0		2
-Nix, Roosevelt		$30.0		1
-Speakman, Joseph		$100.0		1
-Henry, Candace		$60.0		2
-Lestini, Jennifer		$180.0		2
-Friends of Rick Pfeiffer Committee		$750.0		2
-HNTB Holdings Ltd. PAC		$1000.0		1
-Minton, Andrew		$1500.0		2
-Belcher, Audrey		$120.0		2
-Sistrunk , Randall		$100.0		1
-Nationwide Mutual Insurance Co PAC		$6500.0		2
-Bridges, Lance		$15.0		1
-Arsh, Tatyana		$100.0		1
-Mattern, Gayle		$15.0		1
-The Isaac Wiles PAC		$500.0		1
-Burton, William		$20.0		1
-Silberstein, Michael		$50.0		1
-Harris, Camren		$60.0		2
-Robinson, Beverly		$30.0		1
-IBEW PAC Voluntary Fund		$2000.0		2
-Weiler, Robert		$3000.0		3
-Asher, Herbert		$150.0		1
-Cunningham, Ginger		$105.0		5
-Kelley, Terry		$500.0		1
-Fonseca, Noel		$250.0		1
-Columbus Apartment Association PAC		$850.0		3
-Carter, Kristien		$120.0		3
+Donor                                            		 $Money Donated        		 # Donations 
+==============================================================================================================
+                                                 		 $33453.0              		 92         
+Wood, Mark                                       		 $11000.0              		 6          
+Sullivan, Ernest                                 		 $975.0                		 6          
+Machinski, Richard                               		 $1300.0               		 5          
+Bricker &amp; Eckler LLP State PAC               		 $875.0                		 5          
+Aaron, Michael                                   		 $160.0                		 5          
+Cunningham, Ginger                               		 $105.0                		 5          
+Coleman for Columbus                             		 $12000.0              		 4          
+Firefighters Local 67 PAC Fund                   		 $12000.0              		 4          
+Day, Richard                                     		 $1800.0               		 4          
+Brown, Michael                                   		 $1050.0               		 4          
+Lowe, John                                       		 $650.0                		 4          
+Clay, Derrick                                    		 $550.0                		 4          
+Columbus/Central Ohio Building Trades Council-Educ 		 $400.0                		 4          
+Gladman, Steven                                  		 $400.0                		 4          
+Marinacci, Dawn                                  		 $310.0                		 4          
+Robinson, Yolanda                                		 $105.0                		 4          
+Citizens for Priscilla Tyson                     		 $92485.0              		 3          
+New Albany State PAC                             		 $10000.0              		 3          
+Wagenbrenner, Mark                               		 $6825.0               		 3          
+Barrett, Brian                                   		 $5075.0               		 3          
+Williams, Joe                                    		 $3400.0               		 3          
+IBEW 683 PCE                                     		 $3000.0               		 3          
+Weiler, Robert                                   		 $3000.0               		 3          
+Wagenbrenner, Eric                               		 $1700.0               		 3          
+White Castle PAC                                 		 $1500.0               		 3          
+Moncrief, Dan                                    		 $1500.0               		 3          
+Barnes, Jonathan                                 		 $1000.0               		 3          
+Columbus Apartment Association PAC               		 $850.0                		 3          
+Garland, Wayne                                   		 $440.0                		 3          
+Corrigan, Erin                                   		 $300.0                		 3          
+Ransom, Carl                                     		 $300.0                		 3          
+Conte, Marc                                      		 $300.0                		 3          
+Whittingham Capital, LLC                         		 $250.0                		 3          
+Shinn, Brian                                     		 $250.0                		 3          
+Hawthorne Avenue Investments, LLC                		 $250.0                		 3          
+Mixon, Jodelle                                   		 $240.0                		 3          
+Hambrick, William                                		 $150.0                		 3          
+Garrett, Christina                               		 $140.0                		 3          
+Williams Purkey, Lillian                         		 $135.0                		 3          
+Dawkins, Richard                                 		 $130.0                		 3          
+Carter, Kristien                                 		 $120.0                		 3          
+Jarrells, Dontavius                              		 $105.0                		 3          
+Hampton, Ralonda                                 		 $100.0                		 3          
+Hostin, Seiko                                    		 $100.0                		 3          
+Zachrich, Ben                                    		 $90.0                 		 3          
+Peoples, Victor                                  		 $90.0                 		 3          
+Ransom, Tony                                     		 $80.0                 		 3          
+Bright, Phyllis                                  		 $75.0                 		 3          
+Strickland, Kyle                                 		 $75.0                 		 3          
+Davis, Curtis                                    		 $60.0                 		 3          
+Hairston, Calvin                                 		 $60.0                 		 3          
+Hunley-Jenkins, Keisha                           		 $60.0                 		 3          
+Kostelac, Karen                                  		 $60.0                 		 3          
+Bauknight, Tillman                               		 $50.0                 		 3          
+Hardin, Toni                                     		 $50.0                 		 3          
+Buhrlage, Elaine                                 		 $48.0                 		 3          
+Morgan, Georgia                                  		 $45.0                 		 3          
+Duffey, Regina                                   		 $45.0                 		 3          
+Smith, Toni                                      		 $45.0                 		 3          
+House, Jen                                       		 $45.0                 		 3          
+Helton, Sherri                                   		 $45.0                 		 3          
+Lucas, Felecia                                   		 $45.0                 		 3          
+Josolowitz, Seth                                 		 $3.0                  		 3          
+Nationwide Mutual Insurance Co PAC               		 $6500.0               		 2          
+Wexner, Abigail                                  		 $5000.0               		 2          
+CMAGE/CWA Local 4502                             		 $3500.0               		 2          
+The Huntington Bancshares Incorporated PAC       		 $3000.0               		 2          
+Woolpert, Inc. PAC                               		 $2500.0               		 2          
+Central Ohio Realtors PAC                        		 $2500.0               		 2          
+Burgett, William                                 		 $2000.0               		 2          
+Citizens for Stinziano                           		 $2000.0               		 2          
+IBEW PAC Voluntary Fund                          		 $2000.0               		 2          
+Vorys Sater Seymour and Pease LLP Advocate for Eff 		 $1500.0               		 2          
+Byers, Bill                                      		 $1500.0               		 2          
+Minton, Andrew                                   		 $1500.0               		 2          
+Norman, Misti                                    		 $1250.0               		 2          
+Kinzelman, Brian                                 		 $1100.0               		 2          
+North, Scott                                     		 $1000.0               		 2          
+The Day Companies Property Mgmt Trust            		 $1000.0               		 2          
+Friends of Marilyn Brown                         		 $1000.0               		 2          
+Macgregor Comek, Laura                           		 $1000.0               		 2          
+Angel, Christie                                  		 $1000.0               		 2          
+Igel, John                                       		 $1000.0               		 2          
+Katz, Kyle                                       		 $1000.0               		 2          
+Keister, Marie                                   		 $800.0                		 2          
+Iloka, Tobias                                    		 $800.0                		 2          
+Royer, John                                      		 $750.0                		 2          
+Friends of Rick Pfeiffer Committee               		 $750.0                		 2          
+Bowman, Katharine                                		 $500.0                		 2          
+Brown, Don                                       		 $500.0                		 2          
+Tatum, Kathy                                     		 $400.0                		 2          
+Jones, Zane                                      		 $300.0                		 2          
+Donaldson, Mallory                               		 $300.0                		 2          
+Francis, Stephen                                 		 $300.0                		 2          
+Sexton, Michael                                  		 $250.0                		 2          
+Ricksecker, James                                		 $200.0                		 2          
+Lamb, Shawn                                      		 $200.0                		 2          
+Dempsey, Mark                                    		 $200.0                		 2          
+Devere, Don                                      		 $200.0                		 2          
+McLaughlin, Robert                               		 $200.0                		 2          
+Brandon, Nichole                                 		 $200.0                		 2          
+Schadek, Michael                                 		 $200.0                		 2          
+Lestini, Jennifer                                		 $180.0                		 2          
+Mackey, Jeffrey                                  		 $150.0                		 2          
+Brown, Gamal                                     		 $130.0                		 2          
+Donohue, Falon                                   		 $125.0                		 2          
+Page, Jaiza                                      		 $120.0                		 2          
+Lee, Gregory                                     		 $120.0                		 2          
+Belcher, Audrey                                  		 $120.0                		 2          
+Spencer, Othelda                                 		 $100.0                		 2          
+Pandora, Elizabeth                               		 $100.0                		 2          
+Scott, Luke                                      		 $100.0                		 2          
+Sullivan, Joseph                                 		 $100.0                		 2          
+Walker Makowski, Pamela                          		 $100.0                		 2          
+Harper, Stefphanie                               		 $100.0                		 2          
+Pryor Sully, Nancy                               		 $100.0                		 2          
+King, Staci                                      		 $100.0                		 2          
+Rowe, Rondal                                     		 $90.0                 		 2          
+Scott, Christopher                               		 $90.0                 		 2          
+Holmes, Ramona                                   		 $90.0                 		 2          
+Smith, Michael                                   		 $90.0                 		 2          
+Womack, Carter                                   		 $90.0                 		 2          
+Henderson, Maurice                               		 $80.0                 		 2          
+Sanchez, Javier                                  		 $80.0                 		 2          
+Zachrich, Martin                                 		 $75.0                 		 2          
+Spack, John                                      		 $70.0                 		 2          
+Smith, Chadd                                     		 $70.0                 		 2          
+Strauchtec, Don                                  		 $60.0                 		 2          
+Ransom, Christina                                		 $60.0                 		 2          
+Stovall, Tasha                                   		 $60.0                 		 2          
+Croft, Kishma                                    		 $60.0                 		 2          
+Brown, Paula                                     		 $60.0                 		 2          
+Tupes, Bridgette                                 		 $60.0                 		 2          
+Lewis, Maria                                     		 $60.0                 		 2          
+Makowski, Pamela                                 		 $60.0                 		 2          
+Jones, Shayla                                    		 $60.0                 		 2          
+Mitchell, Shelly                                 		 $60.0                 		 2          
+Thornwell, Donna                                 		 $60.0                 		 2          
+Henry, Bryon                                     		 $60.0                 		 2          
+Webster, Mary                                    		 $60.0                 		 2          
+Hicks, Clayton                                   		 $60.0                 		 2          
+Abrokawa, Alex                                   		 $60.0                 		 2          
+Jackso, Deloris                                  		 $60.0                 		 2          
+Kelley, Brendan                                  		 $60.0                 		 2          
+Bryant, Lauren                                   		 $60.0                 		 2          
+Cann, Monica                                     		 $60.0                 		 2          
+Hughes, James                                    		 $60.0                 		 2          
+Gherman, Heather                                 		 $60.0                 		 2          
+Sweeney, Edward                                  		 $60.0                 		 2          
+Henry, Candace                                   		 $60.0                 		 2          
+Harris, Camren                                   		 $60.0                 		 2          
+Roberts, Deborah                                 		 $50.0                 		 2          
+Henry, Linda                                     		 $50.0                 		 2          
+Ryan, Francine                                   		 $50.0                 		 2          
+Remy, Emmanuel                                   		 $50.0                 		 2          
+Glasser, Greg                                    		 $50.0                 		 2          
+Fergus, Shannon                                  		 $50.0                 		 2          
+Thomas, Linda                                    		 $45.0                 		 2          
+West, Joseph                                     		 $40.0                 		 2          
+Mills, Michelle                                  		 $40.0                 		 2          
+Luce, Bob                                        		 $40.0                 		 2          
+Safford, Boyce                                   		 $40.0                 		 2          
+Ransom, Iyshia                                   		 $40.0                 		 2          
+Ames, Grant                                      		 $40.0                 		 2          
+Williamson, Dan                                  		 $40.0                 		 2          
+Talley, Christopher                              		 $40.0                 		 2          
+Julian, Juliana                                  		 $40.0                 		 2          
+Graves, Darryl                                   		 $40.0                 		 2          
+Goodwin, Simeon                                  		 $40.0                 		 2          
+Pennington, Christa                              		 $40.0                 		 2          
+Green, James                                     		 $40.0                 		 2          
+Campbell, Terrell                                		 $40.0                 		 2          
+Ransom, Jasmine                                  		 $40.0                 		 2          
+Smith, Brandon                                   		 $40.0                 		 2          
+Safford, Toshia                                  		 $40.0                 		 2          
+Crumpler, Michael                                		 $40.0                 		 2          
+Hill, Michael                                    		 $40.0                 		 2          
+Bannowman, Renae                                 		 $40.0                 		 2          
+Carter, Sheritta                                 		 $30.0                 		 2          
+Loutzenhiser, Charles                            		 $30.0                 		 2          
+Bell, Napolean                                   		 $30.0                 		 2          
+Martin, Ginny                                    		 $30.0                 		 2          
+Martin, Richard                                  		 $30.0                 		 2          
+Roberts, Doris                                   		 $30.0                 		 2          
+Howell, Jesi                                     		 $30.0                 		 2          
+Morgan, Paige                                    		 $30.0                 		 2          
+Shim, Sam                                        		 $30.0                 		 2          
+Cook, John                                       		 $30.0                 		 2          
+Booker, Margaret                                 		 $30.0                 		 2          
+Cooper, Christopher                              		 $30.0                 		 2          
+Travis, Brenna                                   		 $30.0                 		 2          
+Nesbitt-Ransom, Renee                            		 $30.0                 		 2          
+Lu, Yung Chen                                    		 $30.0                 		 2          
+Ransom, Kraig                                    		 $30.0                 		 2          
+Couch, Al                                        		 $30.0                 		 2          
+Travis, Mary                                     		 $30.0                 		 2          
+Howell, Edie                                     		 $30.0                 		 2          
+Grayson, Destin                                  		 $30.0                 		 2          
+Wilkerson, Angela                                		 $30.0                 		 2          
+Robinson, Kay                                    		 $30.0                 		 2          
+O'Connor, Daniel                                 		 $30.0                 		 2          
+Bauknight, Leslie                                		 $30.0                 		 2          
+Franklin, Ken                                    		 $30.0                 		 2          
+Sully, Nancy                                     		 $30.0                 		 2          
+Cook, Alyce                                      		 $30.0                 		 2          
+Cunningham, Fred                                 		 $30.0                 		 2          
+Fields, Jason                                    		 $30.0                 		 2          
+Brown, Christine                                 		 $30.0                 		 2          
+Mareland, Marie                                  		 $30.0                 		 2          
+Straughter, Larry                                		 $30.0                 		 2          
+Josolowitz-Luce, Philip                          		 $30.0                 		 2          
+Burton, Georden                                  		 $30.0                 		 2          
+Moore, Rebecca                                   		 $30.0                 		 2          
+Kaufman, Brett                                   		 $10000.0              		 1          
+United Food &amp; Commercial Workers Active Ballot Clu 		 $10000.0              		 1          
+H R Gray PAC                                     		 $7500.0               		 1          
+Moving Forward PAC                               		 $5000.0               		 1          
+Writesel, P B                                    		 $5000.0               		 1          
+Edwards, Peter                                   		 $5000.0               		 1          
+Edwards, Jeff                                    		 $5000.0               		 1          
+Jobs America PAC                                 		 $4000.0               		 1          
+KGM PAC                                          		 $3000.0               		 1          
+NiSource Inc. PAC                                		 $3000.0               		 1          
+Connect Realty, LLC                              		 $3000.0               		 1          
+Vekasy, Mathew                                   		 $2500.0               		 1          
+King, Nicholas                                   		 $2500.0               		 1          
+Pizzuti PAC                                      		 $2500.0               		 1          
+Squire Patton Boggs PAC                          		 $2500.0               		 1          
+Underhill &amp; Hodge LLC                        		 $2500.0               		 1          
+Myers, Robert                                    		 $2500.0               		 1          
+Hodge, David                                     		 $2500.0               		 1          
+Negron, James                                    		 $2000.0               		 1          
+DeHays, Brad                                     		 $2000.0               		 1          
+Corna, Joshua                                    		 $2000.0               		 1          
+Weiler, James                                    		 $1000.0               		 1          
+Babner, David                                    		 $1000.0               		 1          
+Calfee Fund for Good Government                  		 $1000.0               		 1          
+Steiner, Yaromir                                 		 $1000.0               		 1          
+JPMorgan Chase &amp; Co. PAC                     		 $1000.0               		 1          
+Kirkley, Robert                                  		 $1000.0               		 1          
+Ingram, Lisa                                     		 $1000.0               		 1          
+Motorists Mutual Ins. Co. Civic Fund             		 $1000.0               		 1          
+Design Group PAC                                 		 $1000.0               		 1          
+Mentel, Sean                                     		 $1000.0               		 1          
+Taft Stettinius &amp; Hollister Better Government Fund 		 $1000.0               		 1          
+Brigdon, Thomas                                  		 $1000.0               		 1          
+HNTB Holdings Ltd. PAC                           		 $1000.0               		 1          
+Kontogiannis, George                             		 $500.0                		 1          
+Greene, Jamie                                    		 $500.0                		 1          
+Kelley, Patrick                                  		 $500.0                		 1          
+Brandt, Barbara                                  		 $500.0                		 1          
+Grote, Thomas                                    		 $500.0                		 1          
+Scott, Daniel                                    		 $500.0                		 1          
+Bowen, Richard                                   		 $500.0                		 1          
+OhioHealth Star Corp Political Action Committee  		 $500.0                		 1          
+Dioum, Mina                                      		 $500.0                		 1          
+Robinson, Timothy                                		 $500.0                		 1          
+Feeney, Paul                                     		 $500.0                		 1          
+Taylor, Jacob                                    		 $500.0                		 1          
+Kelley, Donald                                   		 $500.0                		 1          
+Miller, Richard                                  		 $500.0                		 1          
+Keller, Harold                                   		 $500.0                		 1          
+Shubert, Colleen                                 		 $500.0                		 1          
+Miller, Harvey                                   		 $500.0                		 1          
+Allen, Steven                                    		 $500.0                		 1          
+Diaz, Craig                                      		 $500.0                		 1          
+Kelley, Timothy                                  		 $500.0                		 1          
+Katzenmeyer, Tom                                 		 $500.0                		 1          
+Kelley, Tim                                      		 $500.0                		 1          
+Hindenlang, Dean                                 		 $500.0                		 1          
+Ohio Hotel PAC                                   		 $500.0                		 1          
+GSP Ohio PAC                                     		 $500.0                		 1          
+Ivory, Heather                                   		 $500.0                		 1          
+Kelley, Margaret                                 		 $500.0                		 1          
+Teach, Donna                                     		 $500.0                		 1          
+Calhoun, Jason                                   		 $500.0                		 1          
+Dooley, Bruce                                    		 $500.0                		 1          
+Friends of O'Connor                              		 $500.0                		 1          
+Savarise, Joseph                                 		 $500.0                		 1          
+Lipnos, James                                    		 $500.0                		 1          
+The Isaac Wiles PAC                              		 $500.0                		 1          
+Kelley, Terry                                    		 $500.0                		 1          
+Coram, Joseph                                    		 $417.0                		 1          
+Schoen, Michael                                  		 $417.0                		 1          
+Solomon, Scott                                   		 $300.0                		 1          
+Smithson, Michael                                		 $250.0                		 1          
+Seely, Elizabeth                                 		 $250.0                		 1          
+Marsh, Ty                                        		 $250.0                		 1          
+AMG Peterbilt Group, LLC                         		 $250.0                		 1          
+Rhodes, Jerry                                    		 $250.0                		 1          
+Eribo, Andrew                                    		 $250.0                		 1          
+Kegler, Brown, Hill &amp; Ritter, PAC            		 $250.0                		 1          
+Bowen, David                                     		 $250.0                		 1          
+NiSource Inc., PAC                               		 $250.0                		 1          
+Pugh, Letha                                      		 $250.0                		 1          
+Palmore, Dannette                                		 $250.0                		 1          
+Shellabarger, Steven                             		 $250.0                		 1          
+Teaford, Hamilton                                		 $250.0                		 1          
+Boggs for Ohio                                   		 $250.0                		 1          
+Columbus Sheet Metal Workers Committee on Politica 		 $250.0                		 1          
+Alfayyomi, Ihsan                                 		 $250.0                		 1          
+Manser, Jacob                                    		 $250.0                		 1          
+Friedman, Jerome                                 		 $250.0                		 1          
+Griffin Communications LLC                       		 $250.0                		 1          
+Markham, Shannon                                 		 $250.0                		 1          
+Sophocleous, Savvas                              		 $250.0                		 1          
+Fonseca, Noel                                    		 $250.0                		 1          
+Bengel, Patricia                                 		 $150.0                		 1          
+Asfaw, Seleshi                                   		 $150.0                		 1          
+Daugherty, John                                  		 $150.0                		 1          
+Paul, Brooke                                     		 $150.0                		 1          
+Harper, Rena                                     		 $150.0                		 1          
+Cespedes, Juan                                   		 $150.0                		 1          
+Knott, Megan                                     		 $150.0                		 1          
+Rakes, Wade                                      		 $150.0                		 1          
+Asher, Herbert                                   		 $150.0                		 1          
+Greathouse, Erik                                 		 $125.0                		 1          
+Martin, Dean                                     		 $125.0                		 1          
+Seckler, Barbara                                 		 $120.0                		 1          
+Ward, Courtney                                   		 $100.0                		 1          
+Doucet, Troy                                     		 $100.0                		 1          
+Spires, Kristy                                   		 $100.0                		 1          
+Capobianco, Louis                                		 $100.0                		 1          
+Goldstein, Jami                                  		 $100.0                		 1          
+Benseler, Derek                                  		 $100.0                		 1          
+Virre, Mary                                      		 $100.0                		 1          
+Rayburn, John                                    		 $100.0                		 1          
+Anderson, Peggy                                  		 $100.0                		 1          
+Schick, Ryan                                     		 $100.0                		 1          
+Hedrick, Bill                                    		 $100.0                		 1          
+Morison, Jed                                     		 $100.0                		 1          
+Sutton, Nikki                                    		 $100.0                		 1          
+Nesbitt, Renee                                   		 $100.0                		 1          
+Morton, Jason                                    		 $100.0                		 1          
+Kambay, Makia                                    		 $100.0                		 1          
+Garner, Dwight                                   		 $100.0                		 1          
+Khoury, Paul                                     		 $100.0                		 1          
+Cozad, Christine                                 		 $100.0                		 1          
+Neely, Demetries                                 		 $100.0                		 1          
+Rickbecker, James                                		 $100.0                		 1          
+Roman, Bridgette                                 		 $100.0                		 1          
+Asmo, Rebecca                                    		 $100.0                		 1          
+Ervin, Beth                                      		 $100.0                		 1          
+Ranney, Michael                                  		 $100.0                		 1          
+Adelusola, Edna                                  		 $100.0                		 1          
+Dior Smoot, Dana                                 		 $100.0                		 1          
+Swanson, Laura                                   		 $100.0                		 1          
+Westbrook, Brittany                              		 $100.0                		 1          
+Truesdell, Heather                               		 $100.0                		 1          
+Mollard, Kerri                                   		 $100.0                		 1          
+Fassbender, Terri                                		 $100.0                		 1          
+Tatum, Katherine                                 		 $100.0                		 1          
+Roberts, Edward                                  		 $100.0                		 1          
+Carmichael, Michael                              		 $100.0                		 1          
+Johnson, Michael                                 		 $100.0                		 1          
+Hardy, William                                   		 $100.0                		 1          
+Daley, Stephen                                   		 $100.0                		 1          
+Schuler, Linda                                   		 $100.0                		 1          
+Hunton, Larry                                    		 $100.0                		 1          
+Hurtt, Steven                                    		 $100.0                		 1          
+Sexton, Mike                                     		 $100.0                		 1          
+Miner, Jack                                      		 $100.0                		 1          
+Yvette Harden, Tyneisha                          		 $100.0                		 1          
+Dinsmore, Allan                                  		 $100.0                		 1          
+Rajadhyaksha, Shyam                              		 $100.0                		 1          
+Guisinger, Ronald                                		 $100.0                		 1          
+Savla, Shashi                                    		 $100.0                		 1          
+Suiter, Brian                                    		 $100.0                		 1          
+McIntyre, Rachel                                 		 $100.0                		 1          
+Mason, Mary                                      		 $100.0                		 1          
+Miller, Joshua                                   		 $100.0                		 1          
+Shutt, Jay                                       		 $100.0                		 1          
+Matty, William                                   		 $100.0                		 1          
+Malloy, Randolph                                 		 $100.0                		 1          
+McTigue, Donald                                  		 $100.0                		 1          
+Williams, Kevin                                  		 $100.0                		 1          
+Jerome Buckner, Otis                             		 $100.0                		 1          
+Decker, Jack                                     		 $100.0                		 1          
+Harkey, Bruce                                    		 $100.0                		 1          
+Depaola, Carole                                  		 $100.0                		 1          
+Deering, Patrick                                 		 $100.0                		 1          
+Gofstein, Marc                                   		 $100.0                		 1          
+Johnson, Denise                                  		 $100.0                		 1          
+Speakman, Joseph                                 		 $100.0                		 1          
+Sistrunk , Randall                               		 $100.0                		 1          
+Arsh, Tatyana                                    		 $100.0                		 1          
+Ryan, Rick                                       		 $80.0                 		 1          
+Mumin, Azuka                                     		 $75.75                		 1          
+Kamagate, Habiba                                 		 $75.0                 		 1          
+Terrell, Yohannan                                		 $75.0                 		 1          
+Shumard, Bruce                                   		 $75.0                 		 1          
+D.Womack, Carter                                 		 $75.0                 		 1          
+Lewis, Jacquelin                                 		 $75.0                 		 1          
+Sullivan, Mrs.                                   		 $75.0                 		 1          
+Sully, Ira                                       		 $60.0                 		 1          
+Adams, Nic                                       		 $50.0                 		 1          
+Mastin, Gabriel                                  		 $50.0                 		 1          
+Haehn, Chris                                     		 $50.0                 		 1          
+Kullik, Craig                                    		 $50.0                 		 1          
+Thornburg Rayo, Sarah                            		 $50.0                 		 1          
+Vyzral, Kelly                                    		 $50.0                 		 1          
+Tyler Lee, Dawn                                  		 $50.0                 		 1          
+Gore, Richard                                    		 $50.0                 		 1          
+Lilly, Joel                                      		 $50.0                 		 1          
+Friend Foster, Denise                            		 $50.0                 		 1          
+Lawson, Kiwan                                    		 $50.0                 		 1          
+Friedman, Adam                                   		 $50.0                 		 1          
+Brooks Sullivan, Cheryl                          		 $50.0                 		 1          
+Gallicchio, Mike                                 		 $50.0                 		 1          
+Hernandez, Pablo                                 		 $50.0                 		 1          
+Leatherwood, William                             		 $50.0                 		 1          
+Pretentious Barrel House LLC                     		 $50.0                 		 1          
+Bartley, Trudy                                   		 $50.0                 		 1          
+Blake, Jeremy                                    		 $50.0                 		 1          
+Hale Sutton, Loren                               		 $50.0                 		 1          
+Martin, Anne                                     		 $50.0                 		 1          
+Chilton, Robert                                  		 $50.0                 		 1          
+Hunter, Brandon                                  		 $50.0                 		 1          
+Potter, Mary Ann                                 		 $50.0                 		 1          
+Zunkiewicz, Gregory                              		 $50.0                 		 1          
+Goodwin, Russell                                 		 $50.0                 		 1          
+Ibel, Sebastian                                  		 $50.0                 		 1          
+Barnes, Bob                                      		 $50.0                 		 1          
+Kaplan, Charles                                  		 $50.0                 		 1          
+Cochran, Malcolm                                 		 $50.0                 		 1          
+Dorans, Rob                                      		 $50.0                 		 1          
+Garrett, Kesha                                   		 $50.0                 		 1          
+Ralston, Brent                                   		 $50.0                 		 1          
+Renzi, Allan                                     		 $50.0                 		 1          
+Kulik, Craig                                     		 $50.0                 		 1          
+Whatley, James                                   		 $50.0                 		 1          
+Gilton, Lisa                                     		 $50.0                 		 1          
+Gyshen Fennell, Sean                             		 $50.0                 		 1          
+Silberstein, Michael                             		 $50.0                 		 1          
+Stewart, Helen                                   		 $45.0                 		 1          
+Byers, Daphne                                    		 $45.0                 		 1          
+Stewart, HELEN                                   		 $45.0                 		 1          
+Wilson, Meoldi                                   		 $40.0                 		 1          
+Event contributions less than $25                		 $40.0                 		 1          
+Sherman, Jonathan                                		 $40.0                 		 1          
+Jama, Omar                                       		 $40.0                 		 1          
+Ginn, Gina                                       		 $40.0                 		 1          
+Hamilton, Jerome                                 		 $40.0                 		 1          
+HAMILTON, JEROME                                 		 $40.0                 		 1          
+Francis, Carolyn                                 		 $40.0                 		 1          
+Henry, Robert                                    		 $40.0                 		 1          
+Fisher, Shellee                                  		 $30.0                 		 1          
+Scott, Julian                                    		 $30.0                 		 1          
+Dorans, Robert                                   		 $30.0                 		 1          
+Carr, Garrison                                   		 $30.0                 		 1          
+Ryan, Richard                                    		 $30.0                 		 1          
+Peterson, Latoya                                 		 $30.0                 		 1          
+House, Jennifer                                  		 $30.0                 		 1          
+Dixon, Leander                                   		 $30.0                 		 1          
+Cook, Broderick                                  		 $30.0                 		 1          
+Chatman, Sean                                    		 $30.0                 		 1          
+Garrett, Ceola                                   		 $30.0                 		 1          
+Benoit, Michael                                  		 $30.0                 		 1          
+Price, Larry                                     		 $30.0                 		 1          
+Nooks, Tonya                                     		 $30.0                 		 1          
+Dawkins, David                                   		 $30.0                 		 1          
+Hutching, Tony                                   		 $30.0                 		 1          
+Dupree, Monica                                   		 $30.0                 		 1          
+White, Benny                                     		 $30.0                 		 1          
+Allen, Debbie                                    		 $30.0                 		 1          
+Nickens, Brandy                                  		 $30.0                 		 1          
+King, Leonard                                    		 $30.0                 		 1          
+Padilla, Ernesto                                 		 $30.0                 		 1          
+Brown, Emmett                                    		 $30.0                 		 1          
+Boggs, Lisa                                      		 $30.0                 		 1          
+Nix, Roosevelt                                   		 $30.0                 		 1          
+Robinson, Beverly                                		 $30.0                 		 1          
+McCoy, LaVeda                                    		 $29.0                 		 1          
+Wilson, Larry                                    		 $25.0                 		 1          
+Booker, Emma                                     		 $25.0                 		 1          
+Tolliner, Shay                                   		 $25.0                 		 1          
+Bell, Napoleon                                   		 $25.0                 		 1          
+Ransom, Jamila                                   		 $25.0                 		 1          
+Howard, Joseph                                   		 $25.0                 		 1          
+Yeager, David                                    		 $25.0                 		 1          
+Kazmi, Reyahd                                    		 $25.0                 		 1          
+Larrimer, Patrick                                		 $25.0                 		 1          
+Christian, Kwame                                 		 $25.0                 		 1          
+Lindsay, Charles                                 		 $20.0                 		 1          
+Ranson, Dana                                     		 $20.0                 		 1          
+Perry, Brandon                                   		 $20.0                 		 1          
+Davidson, Karen                                  		 $20.0                 		 1          
+Foster, Shauntia                                 		 $20.0                 		 1          
+Dawkins, Dorothy                                 		 $20.0                 		 1          
+Fields, Lamar                                    		 $20.0                 		 1          
+Ransom Stultz, Kristi                            		 $20.0                 		 1          
+Suez, Chris                                      		 $20.0                 		 1          
+Russell, Anne                                    		 $20.0                 		 1          
+Howard, Dionne                                   		 $20.0                 		 1          
+Sutton, Nora                                     		 $20.0                 		 1          
+Husband, Kiara                                   		 $20.0                 		 1          
+Lamb, Kevin                                      		 $20.0                 		 1          
+Dean, Zachary                                    		 $20.0                 		 1          
+Hill, Tracey                                     		 $20.0                 		 1          
+Pattricia, Pellerite                             		 $20.0                 		 1          
+McCain, Kevin                                    		 $20.0                 		 1          
+Saelim, Theresa                                  		 $20.0                 		 1          
+Labitue, Ian                                     		 $20.0                 		 1          
+NLM, Steven                                      		 $20.0                 		 1          
+Allen, Deidre                                    		 $20.0                 		 1          
+Stultz, Britton                                  		 $20.0                 		 1          
+Turner, Winette                                  		 $20.0                 		 1          
+Burton, William                                  		 $20.0                 		 1          
+Lincoln, Cynthia                                 		 $15.0                 		 1          
+Smith, Reita                                     		 $15.0                 		 1          
+Staples, Beverlyn                                		 $15.0                 		 1          
+Ngozi Oike, Roselinde                            		 $15.0                 		 1          
+Dimitri, Arline                                  		 $15.0                 		 1          
+Johnson, F                                       		 $15.0                 		 1          
+Bibb, Rachel                                     		 $15.0                 		 1          
+Lopez, Sandra                                    		 $15.0                 		 1          
+Canady-Johnson, Margo                            		 $15.0                 		 1          
+Howard, Andrea                                   		 $15.0                 		 1          
+Harrison, JHANNELLE                              		 $15.0                 		 1          
+Coet, James                                      		 $15.0                 		 1          
+Harden, Tyneisha                                 		 $15.0                 		 1          
+Harrison, Jhannelle                              		 $15.0                 		 1          
+Tappan Williams, Susan                           		 $15.0                 		 1          
+Gooch, Deborah                                   		 $15.0                 		 1          
+Adams, Tonya                                     		 $15.0                 		 1          
+Adams, Ciera                                     		 $15.0                 		 1          
+Gray, Darrell                                    		 $15.0                 		 1          
+Dickerson, Monique                               		 $15.0                 		 1          
+Norman, Arthur                                   		 $15.0                 		 1          
+Haggins, Brenda                                  		 $15.0                 		 1          
+Tweet, David                                     		 $15.0                 		 1          
+Rivera, George                                   		 $15.0                 		 1          
+Henry, Alicia                                    		 $15.0                 		 1          
+Boykin, Lela                                     		 $15.0                 		 1          
+Stevens, Julia                                   		 $15.0                 		 1          
+Stewart, Marcus                                  		 $15.0                 		 1          
+Anderson, S.                                     		 $15.0                 		 1          
+Sparrow, Darien                                  		 $15.0                 		 1          
+Mercado, Octavia                                 		 $15.0                 		 1          
+Porter, Chris                                    		 $15.0                 		 1          
+Dickerson, Deborah                               		 $15.0                 		 1          
+White, William                                   		 $15.0                 		 1          
+Anderson, Stanley                                		 $15.0                 		 1          
+Cook, Shewa                                      		 $15.0                 		 1          
+Harden, Michael                                  		 $15.0                 		 1          
+Bridges, Lance                                   		 $15.0                 		 1          
+Mattern, Gayle                                   		 $15.0                 		 1          
+Smith, Herbert                                   		 $10.0                 		 1          
+Young, Natalie                                   		 $10.0                 		 1          
+Harris, Chevonne                                 		 $10.0                 		 1          
+Calhoun-Stultz, Ariel                            		 $10.0                 		 1          
+Mullins, Timothy                                 		 $5.0                  		 1          
+Lauderdale, Tahja                                		 $5.0                  		 1          
+JOSOLOWITZ, SETH                                 		 $1.0                  		 1          
+==============================================================================================================
+Totals                                           		 $402813.75            		 946        

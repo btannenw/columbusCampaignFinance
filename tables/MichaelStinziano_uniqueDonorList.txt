@@ -1,153 +1,155 @@
-Donor 		 Money Donated 		 # Donations
-======================================================
-Nationwide Mutual Insurance Co. PAC		$1500.0		1
-Rader, Arthur 		$237.0		1
-0, 0		$100.0		1
-People for Page		$94.0		1
-Columbus/Central Ohio Building Trades Council Educ		$137.0		1
-Shelly, Robert		$50.0		1
-Ferriel, William		$500.0		1
-Petrelli, Joseph		$1000.0		1
-Ohio Restaurant PAC		$400.0		2
-Wesp, E Joel		$100.0		1
-Myers, Ronald		$417.0		1
-Stinziano, Lisa		$637.0		2
-Adamantidis, Dean		$1000.0		1
-Williams, Joe		$200.0		1
-Iliev, Nick		$100.0		1
-Sicaras, James		$1000.0		1
-National League DC		$355.0		1
-Summer, Joshua		$100.0		1
-Hermann, Barbara		$74.0		1
-Woolpert Inc. PAC		$250.0		1
-Petruzzella, Nicholas		$800.0		2
-Doucet, Troy		$250.0		1
-Calfee Fund For Good Government		$500.0		2
-Wagenbrenner, Eric		$100.0		1
-Kinzelman, Brian		$250.0		1
-Maharath, Tina		$37.0		1
-Stinziano, Michael		$93.76		1
-Carpenters Local 200 PCE		$400.0		2
-Checksmart Financial LLC PAC		$400.0		2
-ACT Foundation PCE		$500.0		1
-Vorys Sater Seymour and Pease LLP Advocate for Eff		$500.0		1
-Patel, Harshidaben		$500.0		1
-Kegler Brown Hill &amp; Ritter PAC		$250.0		1
-Moses, Charles		$200.0		2
-Underhill, Aaron		$350.0		2
-Smith, Lee		$250.0		1
-Bricker &amp; Eckler LLP State PAC		$137.0		1
-Foley, Karen		$100.0		1
-Ohioans for Change Inc.		$250.0		1
-Columbus Apartment Association PAC		$500.0		1
-Atha, Kristen		$150.0		1
-Katzenmeyer, Tom		$2000.0		2
-Morrison, Michael		$500.0		1
-Hayes, Virginia		$50.0		1
-MacGregor Comek, Laura		$250.0		1
-Rivers, Robert		$100.0		1
-Chrisman, Robert		$400.0		2
-Schott, Mike		$500.0		2
-Klabouss, George		$400.0		2
-Glimcher, Herbert		$250.0		1
-Smith, Jeff		$100.0		1
-Central Ohio Realtors Political Action Committee		$1000.0		1
-Johnson, Carly		$450.0		3
-Evans, Robert		$300.0		2
-Rader, Arthur		$250.0		1
-Ohio Health Star Corp PAC		$250.0		1
-BIA Build PAC of Central Ohio		$250.0		1
-North, Scott		$500.0		1
-Meyers, Robert		$1000.0		1
-United States Postal Service		$71.45		1
-Mackey, Jeff		$60.0		1
-Arcadis US Inc. PAC		$1000.0		1
-Kalbouss, Elizabeth		$400.0		2
-New Albany State PAC		$2000.0		3
-Columbus Franklin County AFL CIO PCE		$250.0		1
-Barrett, Brian		$300.0		1
-IBEW 683 PCE		$3000.0		2
-McGregor Comek, Laura 		$250.0		1
-Paragas, C David		$300.0		1
-Gabrail, Paul		$1500.0		2
-Dorans, Robert		$37.0		1
-Ferriel, Will		$500.0		1
-Fisher, Theodore		$300.0		2
-Kading, Bradley		$1000.0		2
-Papineau, Steve		$250.0		1
-Stinziano, Dlyn		$35.0		1
-Skilken, Steve		$250.0		1
-Lawson, Carol		$500.0		1
-Weiler, Skip		$250.0		1
-Preistas, Jason		$500.0		1
-Hodge, David		$850.0		3
-Staravecka, Eugene		$100.0		1
-Ohio Merchants Committee PAC		$400.0		2
-Casto, Don		$3500.0		4
-Apseloff, Glen		$1000.0		2
-Liying Huang, Lisa 		$250.0		1
-Nathans, Lee		$100.0		1
-Jenkins, Garry		$200.0		2
-Columbus Sheet Metal Workers Committee on Politica		$500.0		2
-Pandora, Elizabeth		$50.0		1
-CMAGE CWA Local 4502		$500.0		1
-Lafogiannis, Niki		$200.0		1
-OhioHealth Star Corp PAC		$400.0		2
-Hansen, Ethan		$200.0		2
-Royer, John		$500.0		1
-Corey, David		$937.0		3
-Henneke, Greg		$400.0		2
-Swanson, Laura 		$100.0		1
-The Huntington Bancshares Inc PAC		$1000.0		1
-Wagenbrenner, Mark		$400.0		1
-Schoen, Michael		$417.0		1
-Craig, Philip		$1200.0		2
-Jobs America PAC		$1000.0		1
-Columbus Apartment Association OAC		$800.0		2
-Wood, Mark		$900.0		3
-Government Advantage Group		$500.0		1
-Calfee Fund for Good Government		$500.0		1
-Kobacker, James		$125.0		1
-Mahaney, John		$400.0		2
-MSCPAC		$550.0		2
-Kostelac, Karen		$100.0		1
-Zajic, Scot		$250.0		1
-Lipnos, James		$500.0		1
-Maglione, Timothy		$400.0		2
-Ockerman, Aaron		$1500.0		2
-NiSource Inc. PAC		$500.0		2
-Hutras, Aristotle		$100.0		1
-Cespedes, Juan		$250.0		1
-Diamond, Thomas		$50.0		2
-Anthony, Bill		$60.0		1
-Majidzadeh, Farah		$1000.0		1
-Kass, Frank		$1000.0		1
-Ricksecker, Cleve		$200.0		2
-Space, Zach		$500.0		1
-Ryan, Richard		$75.0		1
-SSC PAC State of Ohio		$100.0		1
-Dawson, Seth		$1.0		2
-Hilson, Daniel		$200.0		1
-Gladman, Steven		$100.0		1
-Apseloff, Stanford		$2000.0		2
-Burgett, William		$1500.0		1
-Petrelli, Sharon		$3000.0		2
-Lestini, Gregory		$250.0		1
-King, Timothy		$500.0		1
-Selimaj, Spartak		$100.0		1
-Columbus Central Ohio Building Trades Council Educ		$350.0		2
-Weaver, Trenton		$37.0		1
-The Committee to Elect Sean O'Brien		$1075.0		1
-Plumbers &amp; Pipefitters LU 189 PCE		$3000.0		2
-Kirkley, Cynthia		$1137.0		2
-Stevenson, Robert		$137.0		1
-Gonsiorowski, Michael		$150.0		1
-Friends of Shannon Hardin		$168.76		2
-Henneke, Gregory		$250.0		1
-IBEW PAC Voluntary Fund		$2037.0		2
-Weiler, Robert		$500.0		1
-Coram, Joseph		$417.0		1
-Steiner, Lori		$1000.0		1
-Orth, Tracey		$50.0		1
-Klausman, Bill		$100.0		1
-Antonoplos, William		$150.0		1
+Donor                                            		 $Money Donated        		 # Donations 
+==============================================================================================================
+Casto, Don                                       		 $3500.0               		 4          
+New Albany State PAC                             		 $2000.0               		 3          
+Corey, David                                     		 $937.0                		 3          
+Wood, Mark                                       		 $900.0                		 3          
+Hodge, David                                     		 $850.0                		 3          
+Johnson, Carly                                   		 $450.0                		 3          
+IBEW 683 PCE                                     		 $3000.0               		 2          
+Petrelli, Sharon                                 		 $3000.0               		 2          
+Plumbers &amp; Pipefitters LU 189 PCE            		 $3000.0               		 2          
+IBEW PAC Voluntary Fund                          		 $2037.0               		 2          
+Katzenmeyer, Tom                                 		 $2000.0               		 2          
+Apseloff, Stanford                               		 $2000.0               		 2          
+Gabrail, Paul                                    		 $1500.0               		 2          
+Ockerman, Aaron                                  		 $1500.0               		 2          
+Craig, Philip                                    		 $1200.0               		 2          
+Kirkley, Cynthia                                 		 $1137.0               		 2          
+Kading, Bradley                                  		 $1000.0               		 2          
+Apseloff, Glen                                   		 $1000.0               		 2          
+Petruzzella, Nicholas                            		 $800.0                		 2          
+Columbus Apartment Association OAC               		 $800.0                		 2          
+Stinziano, Lisa                                  		 $637.0                		 2          
+MSCPAC                                           		 $550.0                		 2          
+Calfee Fund For Good Government                  		 $500.0                		 2          
+Schott, Mike                                     		 $500.0                		 2          
+Columbus Sheet Metal Workers Committee on Politica 		 $500.0                		 2          
+NiSource Inc. PAC                                		 $500.0                		 2          
+Ohio Restaurant PAC                              		 $400.0                		 2          
+Carpenters Local 200 PCE                         		 $400.0                		 2          
+Checksmart Financial LLC PAC                     		 $400.0                		 2          
+Chrisman, Robert                                 		 $400.0                		 2          
+Klabouss, George                                 		 $400.0                		 2          
+Kalbouss, Elizabeth                              		 $400.0                		 2          
+Ohio Merchants Committee PAC                     		 $400.0                		 2          
+OhioHealth Star Corp PAC                         		 $400.0                		 2          
+Henneke, Greg                                    		 $400.0                		 2          
+Mahaney, John                                    		 $400.0                		 2          
+Maglione, Timothy                                		 $400.0                		 2          
+Underhill, Aaron                                 		 $350.0                		 2          
+Columbus Central Ohio Building Trades Council Educ 		 $350.0                		 2          
+Evans, Robert                                    		 $300.0                		 2          
+Fisher, Theodore                                 		 $300.0                		 2          
+Moses, Charles                                   		 $200.0                		 2          
+Jenkins, Garry                                   		 $200.0                		 2          
+Hansen, Ethan                                    		 $200.0                		 2          
+Ricksecker, Cleve                                		 $200.0                		 2          
+Friends of Shannon Hardin                        		 $168.76               		 2          
+Diamond, Thomas                                  		 $50.0                 		 2          
+Dawson, Seth                                     		 $1.0                  		 2          
+Nationwide Mutual Insurance Co. PAC              		 $1500.0               		 1          
+Burgett, William                                 		 $1500.0               		 1          
+The Committee to Elect Sean O'Brien              		 $1075.0               		 1          
+Petrelli, Joseph                                 		 $1000.0               		 1          
+Adamantidis, Dean                                		 $1000.0               		 1          
+Sicaras, James                                   		 $1000.0               		 1          
+Central Ohio Realtors Political Action Committee 		 $1000.0               		 1          
+Meyers, Robert                                   		 $1000.0               		 1          
+Arcadis US Inc. PAC                              		 $1000.0               		 1          
+The Huntington Bancshares Inc PAC                		 $1000.0               		 1          
+Jobs America PAC                                 		 $1000.0               		 1          
+Majidzadeh, Farah                                		 $1000.0               		 1          
+Kass, Frank                                      		 $1000.0               		 1          
+Steiner, Lori                                    		 $1000.0               		 1          
+Ferriel, William                                 		 $500.0                		 1          
+ACT Foundation PCE                               		 $500.0                		 1          
+Vorys Sater Seymour and Pease LLP Advocate for Eff 		 $500.0                		 1          
+Patel, Harshidaben                               		 $500.0                		 1          
+Columbus Apartment Association PAC               		 $500.0                		 1          
+Morrison, Michael                                		 $500.0                		 1          
+North, Scott                                     		 $500.0                		 1          
+Ferriel, Will                                    		 $500.0                		 1          
+Lawson, Carol                                    		 $500.0                		 1          
+Preistas, Jason                                  		 $500.0                		 1          
+CMAGE CWA Local 4502                             		 $500.0                		 1          
+Royer, John                                      		 $500.0                		 1          
+Government Advantage Group                       		 $500.0                		 1          
+Calfee Fund for Good Government                  		 $500.0                		 1          
+Lipnos, James                                    		 $500.0                		 1          
+Space, Zach                                      		 $500.0                		 1          
+King, Timothy                                    		 $500.0                		 1          
+Weiler, Robert                                   		 $500.0                		 1          
+Myers, Ronald                                    		 $417.0                		 1          
+Schoen, Michael                                  		 $417.0                		 1          
+Coram, Joseph                                    		 $417.0                		 1          
+Wagenbrenner, Mark                               		 $400.0                		 1          
+National League DC                               		 $355.0                		 1          
+Barrett, Brian                                   		 $300.0                		 1          
+Paragas, C David                                 		 $300.0                		 1          
+Woolpert Inc. PAC                                		 $250.0                		 1          
+Doucet, Troy                                     		 $250.0                		 1          
+Kinzelman, Brian                                 		 $250.0                		 1          
+Kegler Brown Hill &amp; Ritter PAC               		 $250.0                		 1          
+Smith, Lee                                       		 $250.0                		 1          
+Ohioans for Change Inc.                          		 $250.0                		 1          
+MacGregor Comek, Laura                           		 $250.0                		 1          
+Glimcher, Herbert                                		 $250.0                		 1          
+Rader, Arthur                                    		 $250.0                		 1          
+Ohio Health Star Corp PAC                        		 $250.0                		 1          
+BIA Build PAC of Central Ohio                    		 $250.0                		 1          
+Columbus Franklin County AFL CIO PCE             		 $250.0                		 1          
+McGregor Comek, Laura                            		 $250.0                		 1          
+Papineau, Steve                                  		 $250.0                		 1          
+Skilken, Steve                                   		 $250.0                		 1          
+Weiler, Skip                                     		 $250.0                		 1          
+Liying Huang, Lisa                               		 $250.0                		 1          
+Zajic, Scot                                      		 $250.0                		 1          
+Cespedes, Juan                                   		 $250.0                		 1          
+Lestini, Gregory                                 		 $250.0                		 1          
+Henneke, Gregory                                 		 $250.0                		 1          
+Rader, Arthur                                    		 $237.0                		 1          
+Williams, Joe                                    		 $200.0                		 1          
+Lafogiannis, Niki                                		 $200.0                		 1          
+Hilson, Daniel                                   		 $200.0                		 1          
+Atha, Kristen                                    		 $150.0                		 1          
+Gonsiorowski, Michael                            		 $150.0                		 1          
+Antonoplos, William                              		 $150.0                		 1          
+Columbus/Central Ohio Building Trades Council Educ 		 $137.0                		 1          
+Bricker &amp; Eckler LLP State PAC               		 $137.0                		 1          
+Stevenson, Robert                                		 $137.0                		 1          
+Kobacker, James                                  		 $125.0                		 1          
+0, 0                                             		 $100.0                		 1          
+Wesp, E Joel                                     		 $100.0                		 1          
+Iliev, Nick                                      		 $100.0                		 1          
+Summer, Joshua                                   		 $100.0                		 1          
+Wagenbrenner, Eric                               		 $100.0                		 1          
+Foley, Karen                                     		 $100.0                		 1          
+Rivers, Robert                                   		 $100.0                		 1          
+Smith, Jeff                                      		 $100.0                		 1          
+Staravecka, Eugene                               		 $100.0                		 1          
+Nathans, Lee                                     		 $100.0                		 1          
+Swanson, Laura                                   		 $100.0                		 1          
+Kostelac, Karen                                  		 $100.0                		 1          
+Hutras, Aristotle                                		 $100.0                		 1          
+SSC PAC State of Ohio                            		 $100.0                		 1          
+Gladman, Steven                                  		 $100.0                		 1          
+Selimaj, Spartak                                 		 $100.0                		 1          
+Klausman, Bill                                   		 $100.0                		 1          
+People for Page                                  		 $94.0                 		 1          
+Stinziano, Michael                               		 $93.76                		 1          
+Ryan, Richard                                    		 $75.0                 		 1          
+Hermann, Barbara                                 		 $74.0                 		 1          
+United States Postal Service                     		 $71.45                		 1          
+Mackey, Jeff                                     		 $60.0                 		 1          
+Anthony, Bill                                    		 $60.0                 		 1          
+Shelly, Robert                                   		 $50.0                 		 1          
+Hayes, Virginia                                  		 $50.0                 		 1          
+Pandora, Elizabeth                               		 $50.0                 		 1          
+Orth, Tracey                                     		 $50.0                 		 1          
+Maharath, Tina                                   		 $37.0                 		 1          
+Dorans, Robert                                   		 $37.0                 		 1          
+Weaver, Trenton                                  		 $37.0                 		 1          
+Stinziano, Dlyn                                  		 $35.0                 		 1          
+==============================================================================================================
+Totals                                           		 $78845.97             		 206        

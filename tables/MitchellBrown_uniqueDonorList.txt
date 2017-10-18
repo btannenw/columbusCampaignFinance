@@ -1,35 +1,37 @@
-Donor 		 Money Donated 		 # Donations
-======================================================
-Katzenmeyer, Tom		$500.0		1
-The Huntington Bancshares Incorporated PAC		$2500.0		1
-Friends of Marilyn Brown		$500.0		1
-Firefighters Local 67 PAC Fund		$6000.0		2
-Bricker &amp; Eckler LLP State PAC		$500.0		1
-GSP Ohio PAC		$500.0		1
-Jacobsen, Roger		$100.0		1
-Woda, Jeffrey		$250.0		1
-Williams, Joe		$600.0		1
-Eribo, Andrew		$250.0		1
-North, Scott		$500.0		1
-Angel, Christie		$250.0		1
-Sully, Ira		$85.0		1
-Gladman, Steven		$250.0		1
-Roman, Bridgette		$100.0		1
-New Albany State PAC		$5000.0		1
-Wagenbrenner, Eric		$300.0		1
-Barrett, Brian		$875.0		1
-Citizens for Stinziano		$1000.0		1
-Pryor Sully, Nancy		$50.0		1
-JPMorgan Chase &amp; Co. PAC		$1000.0		1
-Pizzuti PAC		$2500.0		1
-Igel, John		$750.0		1
-Iloka, Tobias		$300.0		1
-Vorys Sater Seymour and Pease LLP Advocate for Eff		$1000.0		1
-IBEW 683 PCE		$1000.0		1
-Sexton, Michael		$100.0		1
-IBEW PAC Voluntary Fund		$1000.0		1
-Brown, Don		$250.0		1
-Stonewall Democrats of Central Ohio		$100.0		1
-Wagenbrenner, Mark		$1225.0		1
-Retchin, Tracy		$250.0		1
-Columbus Apartment Association PAC		$250.0		1
+Donor                                            		 $Money Donated        		 # Donations 
+==============================================================================================================
+Firefighters Local 67 PAC Fund                   		 $6000.0               		 2          
+New Albany State PAC                             		 $5000.0               		 1          
+The Huntington Bancshares Incorporated PAC       		 $2500.0               		 1          
+Pizzuti PAC                                      		 $2500.0               		 1          
+Wagenbrenner, Mark                               		 $1225.0               		 1          
+Citizens for Stinziano                           		 $1000.0               		 1          
+JPMorgan Chase &amp; Co. PAC                     		 $1000.0               		 1          
+Vorys Sater Seymour and Pease LLP Advocate for Eff 		 $1000.0               		 1          
+IBEW 683 PCE                                     		 $1000.0               		 1          
+IBEW PAC Voluntary Fund                          		 $1000.0               		 1          
+Barrett, Brian                                   		 $875.0                		 1          
+Igel, John                                       		 $750.0                		 1          
+Williams, Joe                                    		 $600.0                		 1          
+Katzenmeyer, Tom                                 		 $500.0                		 1          
+Friends of Marilyn Brown                         		 $500.0                		 1          
+Bricker &amp; Eckler LLP State PAC               		 $500.0                		 1          
+GSP Ohio PAC                                     		 $500.0                		 1          
+North, Scott                                     		 $500.0                		 1          
+Wagenbrenner, Eric                               		 $300.0                		 1          
+Iloka, Tobias                                    		 $300.0                		 1          
+Woda, Jeffrey                                    		 $250.0                		 1          
+Eribo, Andrew                                    		 $250.0                		 1          
+Angel, Christie                                  		 $250.0                		 1          
+Gladman, Steven                                  		 $250.0                		 1          
+Brown, Don                                       		 $250.0                		 1          
+Retchin, Tracy                                   		 $250.0                		 1          
+Columbus Apartment Association PAC               		 $250.0                		 1          
+Jacobsen, Roger                                  		 $100.0                		 1          
+Roman, Bridgette                                 		 $100.0                		 1          
+Sexton, Michael                                  		 $100.0                		 1          
+Stonewall Democrats of Central Ohio              		 $100.0                		 1          
+Sully, Ira                                       		 $85.0                 		 1          
+Pryor Sully, Nancy                               		 $50.0                 		 1          
+==============================================================================================================
+Totals                                           		 $29835.0              		 34         

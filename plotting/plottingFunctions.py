@@ -10,14 +10,23 @@ from matplotlib.gridspec import GridSpec
 def makeUniqueDonorList(candidateFile):
     """function for making .txt files summarizing all unique donors, ranking by amount donated, and noting how many donations"""
 
-    outfile = open('../tables/'+candidateFile.candidate.replace(' ','')+'_uniqueDonorList.txt', 'w')
-
-    outfile.write('Donor \t\t Money Donated \t\t # Donations\n')
-    outfile.write('======================================================\n')
     uniqueList_all = candidateFile.returnUniqueDonorList()
-    for donor in uniqueList_all.keys():
-        outfile.write(donor + '\t\t$' + str(uniqueList_all[donor][0]) + '\t\t' + str(uniqueList_all[donor][1]) + '\n')
+    uniqueList_all_ordered = sorted(uniqueList_all.items(), key=operator.itemgetter(1), reverse=True)
+    nTotal, totalAmount = 0, 0
+    
+    outfile = open('../tables/'+candidateFile.candidate.replace(' ','')+'_uniqueDonorList.txt', 'w')
+    outfile.write('{0: <48} \t\t ${1: <20} \t\t {2: <10} \n'.format('Donor', 'Money Donated', '# Donations') )
+    outfile.write('==============================================================================================================\n')
+    
+    #for donor in uniqueList_all.keys():
+    for entry in uniqueList_all_ordered:
+        donor = entry[0]
+        outfile.write('{0: <48} \t\t ${1: <20} \t\t {2: <10} \n'.format(donor,uniqueList_all[donor][1],str(uniqueList_all[donor][0])) )
+        nTotal = nTotal + uniqueList_all[donor][0]
+        totalAmount = totalAmount + uniqueList_all[donor][1]
 
+    outfile.write('==============================================================================================================\n')
+    outfile.write('{0: <48} \t\t ${1: <20} \t\t {2: <10} \n'.format('Totals', totalAmount, nTotal) )        
     outfile.close()
     return
 

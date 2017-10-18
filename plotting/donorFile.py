@@ -219,19 +219,20 @@ class donorFile(object):
             for contribution in self.filings[reportName]['contributions']:
                 amount = float(contribution['amount'].strip('$').replace(',',''))
                 if contribution['donor'] not in uniqueDonorList.keys():
-                    uniqueDonorList[contribution['donor']] = [amount, 1]
+                    uniqueDonorList[contribution['donor']] = [1, amount]
                 else:
-                    uniqueDonorList[contribution['donor']][0] = uniqueDonorList[contribution['donor']][0] + amount                    
-                    uniqueDonorList[contribution['donor']][1] = uniqueDonorList[contribution['donor']][1] + 1
+                    uniqueDonorList[contribution['donor']][0] = uniqueDonorList[contribution['donor']][0] + 1
+                    uniqueDonorList[contribution['donor']][1] = uniqueDonorList[contribution['donor']][1] + amount                    
+
         # run over all reports
         else: 
             for r in self.reports:
                 for contribution in self.filings[r]['contributions']:
                     amount = float(contribution['amount'].strip('$').replace(',',''))
                     if contribution['donor'] not in uniqueDonorList.keys():
-                        uniqueDonorList[contribution['donor']] = [amount, 1]
+                        uniqueDonorList[contribution['donor']] = [1, amount]
                     else:
-                        uniqueDonorList[contribution['donor']][0] = uniqueDonorList[contribution['donor']][0] + amount                    
-                        uniqueDonorList[contribution['donor']][1] = uniqueDonorList[contribution['donor']][1] + 1
+                        uniqueDonorList[contribution['donor']][0] = uniqueDonorList[contribution['donor']][0] + 1
+                        uniqueDonorList[contribution['donor']][1] = uniqueDonorList[contribution['donor']][1] + amount                    
                         
         return uniqueDonorList
