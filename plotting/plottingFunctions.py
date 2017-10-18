@@ -7,6 +7,20 @@ import matplotlib.pyplot as plt, matplotlib.dates as date2num, matplotlib.ticker
 from matplotlib.gridspec import GridSpec
 
 
+def makeUniqueDonorList(candidateFile):
+    """function for making .txt files summarizing all unique donors, ranking by amount donated, and noting how many donations"""
+
+    outfile = open('../tables/'+candidateFile.candidate.replace(' ','')+'_uniqueDonorList.txt', 'w')
+
+    outfile.write('Donor \t\t Money Donated \t\t # Donations\n')
+    outfile.write('======================================================\n')
+    uniqueList_all = candidateFile.returnUniqueDonorList()
+    for donor in uniqueList_all.keys():
+        outfile.write(donor + '\t\t$' + str(uniqueList_all[donor][0]) + '\t\t' + str(uniqueList_all[donor][1]) + '\n')
+
+    outfile.close()
+    return
+
 def makeTotalAndAllReportByTime(candidateFile):
     """function for making plot showing total contributions as function of time"""
 

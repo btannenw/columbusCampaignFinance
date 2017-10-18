@@ -48,14 +48,24 @@ M_Stinziano = donorFile( 'Michael Stinziano', data['Michael Stinziano'] )
 #makeTotalAndAllReportHistograms(M_Stinziano)
 
 # ***  4. Make histograms showing time evolution of total donations for each candidate  ***   
-makeTotalAndAllReportByTime(J_Ayres)
-makeTotalAndAllReportByTime(W_Petrik)
-makeTotalAndAllReportByTime(P_Tyson)
-makeTotalAndAllReportByTime(E_Brown)
-makeTotalAndAllReportByTime(M_Brown)
-makeTotalAndAllReportByTime(S_Hardin)
-makeTotalAndAllReportByTime(J_Page)
-makeTotalAndAllReportByTime(M_Stinziano)
+#makeTotalAndAllReportByTime(J_Ayres)
+#makeTotalAndAllReportByTime(W_Petrik)
+#makeTotalAndAllReportByTime(P_Tyson)
+#makeTotalAndAllReportByTime(E_Brown)
+#makeTotalAndAllReportByTime(M_Brown)
+#makeTotalAndAllReportByTime(S_Hardin)
+#makeTotalAndAllReportByTime(J_Page)
+#makeTotalAndAllReportByTime(M_Stinziano)
+
+# ***  5. Make txt files showing multiple donors and total amount donated per candidate  ***   
+makeUniqueDonorList(J_Ayres)
+makeUniqueDonorList(W_Petrik)
+makeUniqueDonorList(P_Tyson)
+makeUniqueDonorList(E_Brown)
+makeUniqueDonorList(M_Brown)
+makeUniqueDonorList(S_Hardin)
+makeUniqueDonorList(J_Page)
+makeUniqueDonorList(M_Stinziano)
 
 # ***  Last. Show plots  ***
 plt.show()

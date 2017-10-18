@@ -25,6 +25,7 @@ class donorFile(object):
         returnTotalContributions:    returns total number of contributions raised by candidate
         returnAmountValues:          return list of value of all campaign contributions
         returnAmountValuesWithTime:  return list of value of all campaign contributions with time stamp
+        returnUniqueDonorList:       function for returning dict of the value of all contributions from unique donor and number of donations. Can be for candidate summary or single report.
     """
 
     # Members
@@ -208,3 +209,29 @@ class donorFile(object):
 
             return ordered_values, ordered_dates
 
+    
+    def returnUniqueDonorList(self, reportName=''):
+        """function for returning dict of the value of all contributions from unique donor and number of donations. Can be for candidate summary or single report."""
+        uniqueDonorList = {}
+
+        # report specified
+        if reportName != '':
+            for contribution in self.filings[reportName]['contributions']:
+                amount = float(contribution['amount'].strip('$').replace(',',''))
+                if contribution['donor'] not in uniqueDonorList.keys():
+                    uniqueDonorList[contribution['donor']] = [amount, 1]
+                else:
+                    uniqueDonorList[contribution['donor']][0] = uniqueDonorList[contribution['donor']][0] + amount                    
+                    uniqueDonorList[contribution['donor']][1] = uniqueDonorList[contribution['donor']][1] + 1
+        # run over all reports
+        else: 
+            for r in self.reports:
+                for contribution in self.filings[r]['contributions']:
+                    amount = float(contribution['amount'].strip('$').replace(',',''))
+                    if contribution['donor'] not in uniqueDonorList.keys():
+                        uniqueDonorList[contribution['donor']] = [amount, 1]
+                    else:
+                        uniqueDonorList[contribution['donor']][0] = uniqueDonorList[contribution['donor']][0] + amount                    
+                        uniqueDonorList[contribution['donor']][1] = uniqueDonorList[contribution['donor']][1] + 1
+                        
+        return uniqueDonorList

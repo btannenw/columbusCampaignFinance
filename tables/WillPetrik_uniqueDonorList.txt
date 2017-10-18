@@ -1,0 +1,154 @@
+Donor 		 Money Donated 		 # Donations
+======================================================
+Petrik, John 		$1000.0		1
+Barnhill, William		$50.0		1
+Phillips, Becky		$10.0		1
+Harkins, Amy		$100.0		1
+Vogts, Virginia  M		$250.0		1
+Gable, Jennifer		$27.0		1
+Phillips, Audra		$27.0		1
+Fazio, Adam		$27.0		1
+Miller, Dana		$25.0		1
+Casares, Duane E		$100.0		1
+Deibel, Karyn		$50.0		1
+cox, David G		$25.0		1
+Robertson-Boyd, Laura		$50.0		1
+Hammond, Connie M		$25.0		1
+Klatt, Joseph		$80.0		1
+Shartzer, Donald		$250.0		1
+McIntyre, Stuart		$100.0		1
+Wissler, Joanner		$400.0		1
+Clader, Sarah		$27.0		1
+Kile, Benjamin		$27.0		1
+Brody, Farrell		$27.0		1
+Nau, Michael		$27.0		1
+Massey, Debra		$27.0		1
+Carter, Carolyn		$100.0		1
+Davis, David D		$100.0		1
+Moody, Ernesta		$50.0		1
+Becker, Cathy Cowan		$10.0		1
+Doody, Michael		$27.0		1
+Petrik, Rebecca		$1500.0		1
+Eberle, Louise		$54.0		1
+Myers, Kenneth		$100.0		2
+Kellog, Martin		$250.0		1
+Turnbull, Debe		$27.0		1
+Peller, Henry Anton		$27.0		1
+Juhnke, Austin McCabe		$15.0		1
+Sommer, Joseph		$100.0		1
+Bateman, Kurstise 		$250.0		1
+Bates, Nicholas		$100.0		1
+David, Steve		$50.0		1
+Langenhop, Mary Lou		$100.0		1
+Johnston, Cathy		$50.0		1
+Epps, Clarissa 		$27.0		1
+Kilkenny, Erin		$25.0		1
+Turner, Kevin C		$10.0		1
+Weitzenhof, Sherrie		$25.0		1
+Tootle, Thomas		$100.0		1
+Hille, Kathryn		$25.0		1
+Edwards, Sarah		$100.0		1
+Thomas, Kathryn		$100.0		1
+Bauer, Erin		$25.0		1
+Waters, Anita M		$100.0		1
+Friedman, Lynn		$27.0		1
+Stigler, Alexander		$27.0		1
+Hill, Austin		$25.0		1
+Shell, Sue		$27.0		1
+Krelko, Rebecca		$27.0		1
+Petonic, Allison		$50.0		1
+Edwards, Jason		$50.0		1
+Klatt, Will		$100.0		1
+Ralston, Heather		$50.0		1
+Sweeney, Glennon		$27.0		1
+Truitt, Kevin		$100.0		1
+Whitman, MacKenzie		$52.0		1
+Pflum, Chelsea		$27.0		1
+Carter, Carolyn 		$200.0		1
+Kilty, Keith		$100.0		2
+Wollam, Rodney		$50.81		2
+Gerber, Diana		$50.0		1
+Jurbank, Jacob		$27.0		1
+Krasen, Robert 		$25.0		1
+Grover, Amy		$50.0		1
+hoza, michael		$27.0		1
+Pruitt, Jill		$54.0		1
+Erstad, Rachel		$50.0		1
+Liang, Jennifer 		$50.0		1
+Otter, Bill		$20.0		1
+Channing Tenebaum, Gayle		$100.0		1
+Hulbert, Margaret		$130.0		1
+Buschor, Jacqui		$100.0		1
+McCleery, Alaina		$100.0		1
+Fitrakis, Bob		$200.0		1
+Britton, Eric		$100.0		1
+Shusta, Katy		$27.0		1
+Davis-Williams, Raphael		$100.0		1
+Coconis, Michel		$50.0		1
+Morgen, Simone		$54.0		2
+Tankersley, David		$40.0		1
+Wentzel, Roy		$25.0		1
+Owens, Col		$50.0		1
+Varnum, Liza		$25.0		1
+Altomare, Jill		$27.0		1
+Bohm, Tyler		$50.0		1
+Williams, Doyline		$50.0		1
+Tompkins, Laura		$27.0		1
+Kaiser, Michelle		$50.0		1
+Shea, Christopher		$27.0		1
+Datta, Puja		$250.0		1
+Manda, Patricia A		$50.0		1
+Balduff, Nora		$50.0		1
+Petrik, Emily		$100.0		1
+Lynd, Charles		$150.0		2
+Cespedes, Mario		$50.0		1
+Kington, Laura		$27.0		1
+Steele, Deb		$27.0		1
+Gable, Cindy		$75.0		1
+Martindale, Dorothy		$27.0		1
+Hobden, Laurel		$25.0		1
+Braglin, Alexandrea		$25.0		1
+Koby, Keith		$25.0		1
+Leab, Elizabeth		$10.0		1
+Hoza, Michael		$25.0		1
+Hendrix, Molly		$52.0		2
+Weaver, Alexis		$27.0		1
+Wentzel, Jean		$27.0		1
+Petrik, Will		$1050.0		3
+Rylance, Mark		$27.0		1
+Lukowski, Sarah		$54.0		2
+Scott, David 		$100.0		1
+Todd, Doug		$27.0		1
+Dobson, Michael		$15.0		1
+Fraze, Devin		$50.0		1
+Casares, Duane		$100.0		1
+McIntyre, Ronda		$25.0		1
+Mostow, Jackie		$27.0		1
+MASSEY-NORTON, DEBRA		$27.0		1
+young, carrie		$10.0		1
+Boring, Beth		$27.0		1
+Copeland, Shawn David		$50.0		1
+Whitmer, Carol E		$100.0		1
+Nutt, Eric		$25.0		1
+Levine, Cathy		$500.0		1
+Healow, Linda		$100.0		1
+Smith, Danielle		$25.0		1
+Gmeiner, Kathleen		$27.0		1
+Lee, Anne		$27.0		1
+King, Amanda		$125.0		3
+cox, gary		$10.0		1
+Warnock, Noreen		$50.0		1
+Tucker, Melinda		$30.0		1
+Walton, Gregory F		$200.0		1
+Duncan, Melissa		$100.0		1
+Sauer, Edward		$27.0		1
+Gaya, Adam		$100.0		1
+Marshall, Jonathan		$100.0		1
+Beard, Jonathan		$27.0		1
+Bostick, Gregory		$100.0		1
+Kile, Ben		$20.0		1
+Wissler, Joanne		$100.0		1
+Bostik, Bruce		$20.0		1
+Wenning, Rachel  F		$100.0		1
+Petrik, Molly		$150.0		1
+HAYS, JAMES T		$27.0		1
