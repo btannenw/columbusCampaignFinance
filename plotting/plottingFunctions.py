@@ -7,6 +7,20 @@ import matplotlib.pyplot as plt, matplotlib.dates as date2num, matplotlib.ticker
 from matplotlib.gridspec import GridSpec
 
 
+def printUniqueTable(uniqueOrdered, uniqueList, outfile):
+    """function for dumping .txt info, make single function for two functions"""
+    nTotal, totalAmount = 0, 0
+
+    for entry in uniqueOrdered:
+        donor = entry[0]
+        outfile.write('{0: <48} \t\t ${1: <20} \t\t {2: <10} \n'.format(donor,uniqueList[donor][0],str(uniqueList[donor][1])) )
+        nTotal = nTotal + uniqueList[donor][1]
+        totalAmount = totalAmount + uniqueList[donor][0]
+
+    return nTotal, totalAmount
+
+
+
 def makeMultiCandidateUniqueDonorList(candidateFiles, title):
     """function for making .txt files summarizing all unique donors, ranking by amount donated, and noting how many donations"""
 
@@ -17,23 +31,23 @@ def makeMultiCandidateUniqueDonorList(candidateFiles, title):
             if donor not in uniqueList_total:
                 uniqueList_total[donor] = uniqueList_temp[donor]
             else:
-                uniqueList_total[donor][0] = uniqueList_total[donor][0] + uniqueList_temp[donor][0]
                 uniqueList_total[donor][1] = uniqueList_total[donor][1] + uniqueList_temp[donor][1]
+                uniqueList_total[donor][0] = uniqueList_total[donor][0] + uniqueList_temp[donor][0]
         
     uniqueList_total_ordered = sorted(uniqueList_total.items(), key=operator.itemgetter(1), reverse=True)
-    nTotal, totalAmount = 0, 0
     
     #outfile = open('../tables/'+candidateFile.candidate.replace(' ','')+'_uniqueDonorList.txt', 'w')
     outfile = open('../tables/'+title+'_uniqueDonorList.txt', 'w')
     outfile.write('{0: <48} \t\t ${1: <20} \t\t {2: <10} \n'.format('Donor', 'Money Donated', '# Donations') )
     outfile.write('==============================================================================================================\n')
-    
+
+    nTotal, totalAmount = printUniqueTable(uniqueList_total_ordered, uniqueList_total, outfile)
     #for donor in uniqueList_all.keys():
-    for entry in uniqueList_total_ordered:
-        donor = entry[0]
-        outfile.write('{0: <48} \t\t ${1: <20} \t\t {2: <10} \n'.format(donor,uniqueList_total[donor][1],str(uniqueList_total[donor][0])) )
-        nTotal = nTotal + uniqueList_total[donor][0]
-        totalAmount = totalAmount + uniqueList_total[donor][1]
+    #for entry in uniqueList_total_ordered:
+    #    donor = entry[0]
+    #    outfile.write('{0: <48} \t\t ${1: <20} \t\t {2: <10} \n'.format(donor,uniqueList_total[donor][1],str(uniqueList_total[donor][0])) )
+    #    nTotal = nTotal + uniqueList_total[donor][0]
+    #    totalAmount = totalAmount + uniqueList_total[donor][1]
 
     outfile.write('==============================================================================================================\n')
     outfile.write('{0: <48} \t\t ${1: <20} \t\t {2: <10} \n'.format('Totals', totalAmount, nTotal) )        
@@ -52,12 +66,13 @@ def makeUniqueDonorList(candidateFile):
     outfile.write('{0: <48} \t\t ${1: <20} \t\t {2: <10} \n'.format('Donor', 'Money Donated', '# Donations') )
     outfile.write('==============================================================================================================\n')
     
+    nTotal, totalAmount = printUniqueTable(uniqueList_all_ordered, uniqueList_all, outfile)
     #for donor in uniqueList_all.keys():
-    for entry in uniqueList_all_ordered:
-        donor = entry[0]
-        outfile.write('{0: <48} \t\t ${1: <20} \t\t {2: <10} \n'.format(donor,uniqueList_all[donor][1],str(uniqueList_all[donor][0])) )
-        nTotal = nTotal + uniqueList_all[donor][0]
-        totalAmount = totalAmount + uniqueList_all[donor][1]
+    #for entry in uniqueList_all_ordered:
+    #    donor = entry[0]
+    #    outfile.write('{0: <48} \t\t ${1: <20} \t\t {2: <10} \n'.format(donor,uniqueList_all[donor][1],str(uniqueList_all[donor][0])) )
+    #    nTotal = nTotal + uniqueList_all[donor][0]
+    #    totalAmount = totalAmount + uniqueList_all[donor][1]
 
     outfile.write('==============================================================================================================\n')
     outfile.write('{0: <48} \t\t ${1: <20} \t\t {2: <10} \n'.format('Totals', totalAmount, nTotal) )        

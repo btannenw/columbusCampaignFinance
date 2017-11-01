@@ -1,6 +1,5 @@
 Donor                                            		 $Money Donated        		 # Donations 
 ==============================================================================================================
-Smalls, Gleazy                                   		 $50.0                 		 2          
 Sanders, Deborah                                 		 $500.0                		 1          
 Fowler, Kathleen                                 		 $500.0                		 1          
 Gray, Stephen                                    		 $500.0                		 1          
@@ -23,6 +22,7 @@ Nordstrom, Mary                                  		 $100.0                		 1
 Fineout, Shannon                                 		 $92.32                		 1          
 Stokes, Jill                                     		 $92.32                		 1          
 Jackson, Dawn                                    		 $55.28                		 1          
+Smalls, Gleazy                                   		 $50.0                 		 2          
 Whitted, Ernest                                  		 $50.0                 		 1          
 McFall, Todd                                     		 $50.0                 		 1          
 Holloway, Cristiana                              		 $50.0                 		 1          

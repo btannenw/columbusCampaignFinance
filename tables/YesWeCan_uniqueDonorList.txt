@@ -1,21 +1,7 @@
 Donor                                            		 $Money Donated        		 # Donations 
 ==============================================================================================================
-Petrik, Will                                     		 $1075.0               		 4          
-King, Amanda                                     		 $150.0                		 4          
-Lynd, Charles                                    		 $150.0                		 2          
-Langenhop, Mary Lou                              		 $125.0                		 2          
-Harkins, Amy                                     		 $125.0                		 2          
-Myers, Kenneth                                   		 $100.0                		 2          
-Kilty, Keith                                     		 $100.0                		 2          
-Balduff, Nora                                    		 $75.0                 		 2          
-Morgen, Simone                                   		 $54.0                 		 2          
-Lukowski, Sarah                                  		 $54.0                 		 2          
-Hendrix, Molly                                   		 $52.0                 		 2          
-Beard, Jonathan                                  		 $52.0                 		 2          
-Wollam, Rodney                                   		 $50.81                		 2          
-Smalls, Gleazy                                   		 $50.0                 		 2          
-Kilkenny, Erin                                   		 $50.0                 		 2          
 Petrik, Rebecca                                  		 $1500.0               		 1          
+Petrik, Will                                     		 $1075.0               		 4          
 Petrik, John                                     		 $1000.0               		 1          
 Levine, Cathy                                    		 $500.0                		 1          
 Gray, Stephen                                    		 $500.0                		 1          
@@ -33,11 +19,17 @@ Ayres, Jasmine                                   		 $200.0                		 1
 Carter, Carolyn                                  		 $200.0                		 1          
 Fitrakis, Bob                                    		 $200.0                		 1          
 Walton, Gregory F                                		 $200.0                		 1          
+King, Amanda                                     		 $150.0                		 4          
+Lynd, Charles                                    		 $150.0                		 2          
 Petrik, Molly                                    		 $150.0                		 1          
 Ayres, Deanna                                    		 $138.62               		 1          
 Hulbert, Margaret                                		 $130.0                		 1          
+Langenhop, Mary Lou                              		 $125.0                		 2          
+Harkins, Amy                                     		 $125.0                		 2          
 Burney, Alban                                    		 $125.0                		 1          
 Burney, Heather                                  		 $125.0                		 1          
+Myers, Kenneth                                   		 $100.0                		 2          
+Kilty, Keith                                     		 $100.0                		 2          
 Seltzer, Debra                                   		 $100.0                		 1          
 Jr., Sean Walton                                 		 $100.0                		 1          
 Casares, Duane E                                 		 $100.0                		 1          
@@ -79,11 +71,19 @@ Wenning, Rachel  F                               		 $100.0                		 1
 Fineout, Shannon                                 		 $92.32                		 1          
 Stokes, Jill                                     		 $92.32                		 1          
 Klatt, Joseph                                    		 $80.0                 		 1          
+Balduff, Nora                                    		 $75.0                 		 2          
 Gable, Cindy                                     		 $75.0                 		 1          
 Jackson, Dawn                                    		 $55.28                		 1          
+Morgen, Simone                                   		 $54.0                 		 2          
+Lukowski, Sarah                                  		 $54.0                 		 2          
 Eberle, Louise                                   		 $54.0                 		 1          
 Pruitt, Jill                                     		 $54.0                 		 1          
+Hendrix, Molly                                   		 $52.0                 		 2          
+Beard, Jonathan                                  		 $52.0                 		 2          
 Whitman, MacKenzie                               		 $52.0                 		 1          
+Wollam, Rodney                                   		 $50.81                		 2          
+Smalls, Gleazy                                   		 $50.0                 		 2          
+Kilkenny, Erin                                   		 $50.0                 		 2          
 Barnhill, William                                		 $50.0                 		 1          
 Whitted, Ernest                                  		 $50.0                 		 1          
 Deibel, Karyn                                    		 $50.0                 		 1          

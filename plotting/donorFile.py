@@ -219,10 +219,11 @@ class donorFile(object):
             for contribution in self.filings[reportName]['contributions']:
                 amount = float(contribution['amount'].strip('$').replace(',',''))
                 if contribution['donor'] not in uniqueDonorList.keys():
-                    uniqueDonorList[contribution['donor']] = [1, amount]
+                    #uniqueDonorList[contribution['donor']] = [1, amount] # order by number of donations
+                    uniqueDonorList[contribution['donor']] = [amount, 1]  # order by amount donated
                 else:
-                    uniqueDonorList[contribution['donor']][0] = uniqueDonorList[contribution['donor']][0] + 1
-                    uniqueDonorList[contribution['donor']][1] = uniqueDonorList[contribution['donor']][1] + amount                    
+                    uniqueDonorList[contribution['donor']][1] = uniqueDonorList[contribution['donor']][1] + 1
+                    uniqueDonorList[contribution['donor']][0] = uniqueDonorList[contribution['donor']][0] + amount                    
 
         # run over all reports
         else: 
@@ -230,9 +231,10 @@ class donorFile(object):
                 for contribution in self.filings[r]['contributions']:
                     amount = float(contribution['amount'].strip('$').replace(',',''))
                     if contribution['donor'] not in uniqueDonorList.keys():
-                        uniqueDonorList[contribution['donor']] = [1, amount]
+                        #uniqueDonorList[contribution['donor']] = [1, amount] # order by number of donations
+                        uniqueDonorList[contribution['donor']] = [amount, 1] # order by amount donated
                     else:
-                        uniqueDonorList[contribution['donor']][0] = uniqueDonorList[contribution['donor']][0] + 1
-                        uniqueDonorList[contribution['donor']][1] = uniqueDonorList[contribution['donor']][1] + amount                    
+                        uniqueDonorList[contribution['donor']][1] = uniqueDonorList[contribution['donor']][1] + 1
+                        uniqueDonorList[contribution['donor']][0] = uniqueDonorList[contribution['donor']][0] + amount                    
                         
         return uniqueDonorList

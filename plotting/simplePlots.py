@@ -58,14 +58,14 @@ M_Stinziano = donorFile( 'Michael Stinziano', data['Michael Stinziano'] )
 #makeTotalAndAllReportByTime(M_Stinziano)
 
 # ***  5. Make txt files showing multiple donors and total amount donated per candidate  ***   
-#makeUniqueDonorList(J_Ayres)
-#makeUniqueDonorList(W_Petrik)
-#makeUniqueDonorList(P_Tyson)
-#makeUniqueDonorList(E_Brown)
-#makeUniqueDonorList(M_Brown)
-#makeUniqueDonorList(S_Hardin)
-#makeUniqueDonorList(J_Page)
-#makeUniqueDonorList(M_Stinziano)
+makeUniqueDonorList(J_Ayres)
+makeUniqueDonorList(W_Petrik)
+makeUniqueDonorList(P_Tyson)
+makeUniqueDonorList(E_Brown)
+makeUniqueDonorList(M_Brown)
+makeUniqueDonorList(S_Hardin)
+makeUniqueDonorList(J_Page)
+makeUniqueDonorList(M_Stinziano)
 
 # ***  6. Make txt files showing multiple donors and total amount donated for multiple candidates  ***   
 ywcFiles = [J_Ayres, W_Petrik]

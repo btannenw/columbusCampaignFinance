@@ -1,6 +1,5 @@
 Donor                                            		 $Money Donated        		 # Donations 
 ==============================================================================================================
-                                                 		 $346.8                		 2          
 Pfeiffer, Richard                                		 $3000.0               		 1          
 Wexner, Abigail                                  		 $2500.0               		 1          
 Coleman for Columbus                             		 $1000.0               		 1          
@@ -15,6 +14,7 @@ Vorys, Sater Seymour Pease LLP                   		 $500.0                		 1
 Moncrief, Dan                                    		 $500.0                		 1          
 Borror, Douglas                                  		 $500.0                		 1          
 Schiff, Michael                                  		 $500.0                		 1          
+                                                 		 $346.8                		 2          
 Cols Franklin County, AFL-CIO PCE                		 $250.0                		 1          
 FOP Political Education Fund                     		 $250.0                		 1          
 OAPSE AFSCME Turnaround Ohio                     		 $250.0                		 1          
