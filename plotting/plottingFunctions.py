@@ -7,6 +7,40 @@ import matplotlib.pyplot as plt, matplotlib.dates as date2num, matplotlib.ticker
 from matplotlib.gridspec import GridSpec
 
 
+def makeMultiCandidateUniqueDonorList(candidateFiles, title):
+    """function for making .txt files summarizing all unique donors, ranking by amount donated, and noting how many donations"""
+
+    uniqueList_total = {}
+    for file in candidateFiles:
+        uniqueList_temp = file.returnUniqueDonorList()
+        for donor in uniqueList_temp:
+            if donor not in uniqueList_total:
+                uniqueList_total[donor] = uniqueList_temp[donor]
+            else:
+                uniqueList_total[donor][0] = uniqueList_total[donor][0] + uniqueList_temp[donor][0]
+                uniqueList_total[donor][1] = uniqueList_total[donor][1] + uniqueList_temp[donor][1]
+        
+    uniqueList_total_ordered = sorted(uniqueList_total.items(), key=operator.itemgetter(1), reverse=True)
+    nTotal, totalAmount = 0, 0
+    
+    #outfile = open('../tables/'+candidateFile.candidate.replace(' ','')+'_uniqueDonorList.txt', 'w')
+    outfile = open('../tables/'+title+'_uniqueDonorList.txt', 'w')
+    outfile.write('{0: <48} \t\t ${1: <20} \t\t {2: <10} \n'.format('Donor', 'Money Donated', '# Donations') )
+    outfile.write('==============================================================================================================\n')
+    
+    #for donor in uniqueList_all.keys():
+    for entry in uniqueList_total_ordered:
+        donor = entry[0]
+        outfile.write('{0: <48} \t\t ${1: <20} \t\t {2: <10} \n'.format(donor,uniqueList_total[donor][1],str(uniqueList_total[donor][0])) )
+        nTotal = nTotal + uniqueList_total[donor][0]
+        totalAmount = totalAmount + uniqueList_total[donor][1]
+
+    outfile.write('==============================================================================================================\n')
+    outfile.write('{0: <48} \t\t ${1: <20} \t\t {2: <10} \n'.format('Totals', totalAmount, nTotal) )        
+    outfile.close()
+    return
+
+
 def makeUniqueDonorList(candidateFile):
     """function for making .txt files summarizing all unique donors, ranking by amount donated, and noting how many donations"""
 
@@ -28,7 +62,8 @@ def makeUniqueDonorList(candidateFile):
     outfile.write('==============================================================================================================\n')
     outfile.write('{0: <48} \t\t ${1: <20} \t\t {2: <10} \n'.format('Totals', totalAmount, nTotal) )        
     outfile.close()
-    return
+
+    return uniqueList_all
 
 def makeTotalAndAllReportByTime(candidateFile):
     """function for making plot showing total contributions as function of time"""
